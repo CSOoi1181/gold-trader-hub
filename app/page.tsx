@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import MarketCards from "./components/MarketCards";
 import GoldChart from "./components/GoldChart";
-import DailyBias from "./components/DailyBias";
 import EconomicCalendar from "./components/EconomicCalendar";
 import RiskRewardCalculator from "./components/RiskRewardCalculator";
 
@@ -39,13 +38,14 @@ export default function Home() {
       <Navbar />
 
       <section className="max-w-7xl mx-auto px-6 py-8">
+
         <div className="mb-8">
           <h1 className="text-5xl font-bold mb-3">
             Gold Trader Command Center
           </h1>
 
           <p className="text-zinc-400 text-lg">
-            Professional dashboard built for XAUUSD traders.
+            Professional XAUUSD analysis, market insights and trading education.
           </p>
         </div>
 
@@ -53,15 +53,41 @@ export default function Home() {
 
         <GoldChart />
 
-        <div className="mt-8">
-          <DailyBias />
+        <div className="mt-8 bg-zinc-900 border border-zinc-800 rounded-xl p-6">
+
+          <h2 className="text-2xl font-bold text-yellow-400 mb-4">
+            Gold Market Summary
+          </h2>
+
+          <p className="text-zinc-300 leading-8">
+            Gold (XAU/USD) remains below the important $4,500 resistance
+            level as traders prepare for upcoming U.S. labor market data
+            and Federal Reserve policy expectations.
+          </p>
+
+          <p className="text-zinc-300 leading-8 mt-4">
+            Elevated Treasury yields continue to pressure precious metals,
+            while geopolitical uncertainty and ongoing central bank demand
+            provide longer-term support for gold prices.
+          </p>
+
+          <p className="text-zinc-300 leading-8 mt-4">
+            Current Market Sentiment:
+            <span className="text-yellow-400 font-semibold">
+              {" "}Neutral to Bearish
+            </span>
+          </p>
+
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mt-8">
+
           <EconomicCalendar />
 
           <RiskRewardCalculator />
+
         </div>
+
       </section>
     </main>
   );

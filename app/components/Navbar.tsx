@@ -13,7 +13,7 @@ export default function Navbar() {
           </Link>
 
           <p className="text-xs text-zinc-400">
-            Professional XAUUSD Dashboard
+            Professional XAUUSD Analysis & Trading Education
           </p>
         </div>
 
@@ -30,21 +30,7 @@ export default function Navbar() {
             href="/analysis"
             className="hover:text-yellow-400"
           >
-            Daily Analysis
-          </Link>
-
-          <Link
-            href="/news"
-            className="hover:text-yellow-400"
-          >
-            News
-          </Link>
-
-          <Link
-            href="/calculator"
-            className="hover:text-yellow-400"
-          >
-            Calculator
+            Analysis
           </Link>
 
         </div>
