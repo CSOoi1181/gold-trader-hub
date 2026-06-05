@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import MarketCards from "./components/MarketCards";
 import GoldChart from "./components/GoldChart";
 import MarketSummary from "./components/MarketSummary";
+import FeaturedAnalysis from "./components/FeaturedAnalysis";
 import EconomicCalendar from "./components/EconomicCalendar";
 import RiskRewardCalculator from "./components/RiskRewardCalculator";
 
@@ -56,6 +57,10 @@ export default function Home() {
 
         <div className="mt-8">
           <MarketSummary />
+        </div>
+
+        <div className="mt-8">
+          <FeaturedAnalysis />
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mt-8">
