@@ -1,9 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
 import Navbar from "./components/Navbar";
-import MarketCards from "./components/MarketCards";
 import GoldChart from "./components/GoldChart";
 import MarketSummary from "./components/MarketSummary";
 import FeaturedAnalysis from "./components/FeaturedAnalysis";
@@ -11,30 +8,6 @@ import EconomicCalendar from "./components/EconomicCalendar";
 import RiskRewardCalculator from "./components/RiskRewardCalculator";
 
 export default function Home() {
-  const [goldPrice, setGoldPrice] = useState("Loading...");
-
-  useEffect(() => {
-    async function fetchGoldPrice() {
-      try {
-        const response = await fetch(
-          "https://api.gold-api.com/price/XAU"
-        );
-
-        const data = await response.json();
-
-        setGoldPrice(data.price.toFixed(2));
-      } catch {
-        console.log("price fetch failed");
-      }
-    }
-
-    fetchGoldPrice();
-
-    const interval = setInterval(fetchGoldPrice, 10000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <main className="min-h-screen bg-black text-white">
       <Navbar />
@@ -50,8 +23,6 @@ export default function Home() {
             Professional XAUUSD analysis, market insights and trading education.
           </p>
         </div>
-
-        <MarketCards goldPrice={goldPrice} />
 
         <GoldChart />
 
