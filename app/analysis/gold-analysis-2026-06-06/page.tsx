@@ -1,3 +1,5 @@
+import RelatedArticles from "@/app/components/RelatedArticles";
+
 export const metadata = {
   title: "Gold Price Weekly Review | XAUUSD Forecast 6 June 2026",
   description:
@@ -409,6 +411,8 @@ export default function GoldAnalysisArticle() {
               any trade.
             </p>
           </section>
+
+<RelatedArticles />
 
         </div>
       </div>
