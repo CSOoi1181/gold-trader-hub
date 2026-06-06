@@ -4,10 +4,17 @@ import Navbar from "../components/Navbar";
 export const metadata = {
   title: "Gold Analysis Archive | Gold Trader Hub",
   description:
-    "Daily XAUUSD Gold Analysis, market outlook, technical analysis, support and resistance levels, economic events and trading scenarios.",
+    "Daily XAUUSD Gold Analysis, market outlook, technical analysis, support and resistance levels, economic events, Federal Reserve policy expectations, and professional gold trading insights.",
 };
 
 const articles = [
+  {
+    title: "Gold Risk Management Report – 6 June 2026",
+    date: "6 June 2026",
+    slug: "/analysis/gold-analysis-2026-06-06",
+    summary:
+      "Weekly gold market recap covering the dramatic post-NFP collapse from $4,580 to $4,328. Explore key support and resistance levels, risk management strategies, long and short position guidance, and outlook for the upcoming trading week.",
+  },
   {
     title: "Gold Analysis Today – 5 June 2026",
     date: "5 June 2026",
@@ -37,6 +44,7 @@ export default function AnalysisPage() {
       <Navbar />
 
       <section className="max-w-6xl mx-auto px-6 py-10">
+
         <div className="mb-10">
           <h1 className="text-5xl font-bold text-yellow-400 mb-4">
             Gold Market Analysis Archive
@@ -44,13 +52,14 @@ export default function AnalysisPage() {
 
           <p className="text-zinc-400 text-lg max-w-3xl">
             Professional XAUUSD market analysis covering technical outlook,
-            support and resistance levels, macroeconomic developments,
-            Federal Reserve policy expectations, geopolitical events and
-            trading scenarios.
+            support and resistance levels, Federal Reserve policy expectations,
+            economic events, risk management strategies, geopolitical
+            developments, and actionable trading insights.
           </p>
         </div>
 
         <div className="grid gap-6">
+
           {articles.map((article) => (
             <Link
               key={article.slug}
@@ -76,23 +85,25 @@ export default function AnalysisPage() {
               </div>
             </Link>
           ))}
+
         </div>
 
         <div className="mt-12 border-t border-zinc-800 pt-8">
+
           <h2 className="text-2xl font-semibold text-white mb-4">
             About Our Gold Analysis
           </h2>
 
           <p className="text-zinc-400 leading-8">
-            Gold Trader Hub provides daily XAUUSD analysis focusing on
-            technical chart structures, market sentiment, macroeconomic
-            developments, Federal Reserve policy expectations, economic
-            calendar events, support and resistance zones, and risk
-            management considerations. Our analysis is designed to help
-            traders understand market conditions and identify potential
-            trading opportunities.
+            Gold Trader Hub provides daily and weekly gold market analysis
+            designed for XAUUSD traders and investors. Our reports focus on
+            technical analysis, market sentiment, macroeconomic developments,
+            Federal Reserve policy expectations, support and resistance zones,
+            economic calendar events, and practical risk management strategies.
           </p>
+
         </div>
+
       </section>
     </main>
   );

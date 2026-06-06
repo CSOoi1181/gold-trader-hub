@@ -9,21 +9,28 @@ export default function MarketSummary() {
       <div className="space-y-4 text-zinc-300">
 
         <p>
-          Gold (XAU/USD) is trading around
+          Gold (XAU/USD) ended the week near
           <span className="text-yellow-400 font-semibold">
-            {" "} $4,460 – $4,480
+            {" "} $4,328
           </span>
-          {" "}ahead of the highly anticipated U.S. Non-Farm Payrolls (NFP)
-          report. Traders remain cautious as the employment data could
-          significantly influence Federal Reserve interest-rate expectations.
+          {" "}after suffering one of the sharpest weekly declines of 2026.
+          The precious metal plunged from the $4,580 region following
+          stronger-than-expected U.S. employment data and renewed
+          expectations that the Federal Reserve may keep interest rates
+          higher for longer.
         </p>
 
         <p>
-          Market sentiment remains mixed. Long-term fundamentals continue
-          to support gold through strong central bank buying, persistent
-          global debt concerns and ongoing geopolitical uncertainty.
-          However, elevated U.S. Treasury yields and a stronger U.S.
-          Dollar continue to pressure bullion prices in the short term.
+          Friday's Non-Farm Payrolls (NFP) report triggered heavy selling
+          pressure across the gold market, pushing prices below several key
+          technical support zones. Traders are now closely watching whether
+          the psychological $4,300 level can hold when markets reopen next week.
+        </p>
+
+        <p>
+          Despite the short-term bearish momentum, long-term support remains
+          from continued central bank gold purchases, geopolitical uncertainty,
+          and diversification away from traditional reserve assets.
         </p>
 
         <div className="border-t border-zinc-800 pt-4">
@@ -33,9 +40,9 @@ export default function MarketSummary() {
           </h3>
 
           <ul className="space-y-2">
-            <li>🟢 $4,441</li>
-            <li>🟢 $4,400</li>
-            <li>🟢 $4,370</li>
+            <li>🟢 $4,300</li>
+            <li>🟢 $4,200</li>
+            <li>🟢 $4,100</li>
           </ul>
 
         </div>
@@ -47,9 +54,9 @@ export default function MarketSummary() {
           </h3>
 
           <ul className="space-y-2">
+            <li>🔴 $4,381</li>
+            <li>🔴 $4,428</li>
             <li>🔴 $4,500</li>
-            <li>🔴 $4,520</li>
-            <li>🔴 $4,600</li>
           </ul>
 
         </div>
@@ -57,16 +64,33 @@ export default function MarketSummary() {
         <div className="border-t border-zinc-800 pt-4">
 
           <h3 className="font-semibold text-white mb-2">
-            Today's Market Focus
+            Market Sentiment
           </h3>
 
           <p>
-            Tonight's U.S. Non-Farm Payrolls (NFP), Unemployment Rate
-            and Average Hourly Earnings data are expected to drive
-            significant volatility in gold prices. A weaker labor market
-            report may revive Federal Reserve rate-cut expectations and
-            support gold, while stronger-than-expected numbers could
-            strengthen the U.S. Dollar and pressure XAU/USD lower.
+            <span className="text-red-400 font-semibold">
+              Bearish
+            </span>
+            {" "}in the short term as traders reassess Federal Reserve policy
+            expectations following stronger U.S. labor market data. Any
+            recovery toward the $4,381–$4,428 area may attract renewed
+            selling pressure unless market fundamentals improve.
+          </p>
+
+        </div>
+
+        <div className="border-t border-zinc-800 pt-4">
+
+          <h3 className="font-semibold text-white mb-2">
+            What Traders Should Watch Next Week
+          </h3>
+
+          <p>
+            Monitor price action around the critical $4,300 support zone
+            when markets reopen. A sustained break below this level could
+            expose gold to further downside toward $4,200. Conversely,
+            a recovery above $4,381 may signal temporary stabilization
+            after the aggressive post-NFP sell-off.
           </p>
 
         </div>
