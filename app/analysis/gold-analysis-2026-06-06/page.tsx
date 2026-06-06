@@ -4,9 +4,46 @@ export const metadata = {
     "Gold Price Weekly Review for 6 June 2026. XAU/USD crashed 5.5% after strong U.S. Non-Farm Payrolls data. Explore key support and resistance levels, market outlook, risk management strategies and next week's trading scenarios.",
 };
 
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "Gold Price Weekly Review (1–6 June 2026): XAU/USD Crashes 5.5% After NFP Shock – What Traders Should Watch Next Week",
+  description:
+    "Gold Price Weekly Review for 6 June 2026. XAU/USD crashed 5.5% after strong U.S. Non-Farm Payrolls data. Explore key support and resistance levels, market outlook, risk management strategies and next week's trading scenarios.",
+  image: "https://gold-trader-hub.vercel.app/og-image.jpg",
+  author: {
+    "@type": "Organization",
+    name: "Gold Trader Hub",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Gold Trader Hub",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://gold-trader-hub.vercel.app/logo.png",
+    },
+  },
+  datePublished: "2026-06-06",
+  dateModified: "2026-06-06",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id":
+      "https://gold-trader-hub.vercel.app/analysis/gold-analysis-2026-06-06",
+  },
+};
+
 export default function GoldAnalysisArticle() {
   return (
     <main className="min-h-screen bg-black text-white">
+      
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(articleSchema),
+  }}
+/>
+      
       <div className="max-w-4xl mx-auto px-6 py-10">
 
         <h1 className="text-4xl font-bold text-yellow-400 mb-4">
