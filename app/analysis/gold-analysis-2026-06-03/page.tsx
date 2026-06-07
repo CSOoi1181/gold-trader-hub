@@ -1,3 +1,6 @@
+import RelatedArticles from "@/app/components/RelatedArticles";
+import ArticleNavigation from "@/app/components/ArticleNavigation";
+
 export const metadata = {
   title:
     "Gold Price Forecast Today: XAU/USD Slides Below $4,500 as Fed Expectations Pressure Bullion",
@@ -251,6 +254,15 @@ export default function GoldAnalysisArticle() {
               appropriate risk management before making any trading decisions.
             </p>
           </section>
+
+<ArticleNavigation
+  next={{
+    title: "Gold Analysis Today – 4 June 2026",
+    href: "/analysis/gold-analysis-2026-06-04",
+  }}
+/>
+
+<RelatedArticles />
 
         </div>
       </div>

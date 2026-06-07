@@ -1,3 +1,6 @@
+import RelatedArticles from "@/app/components/RelatedArticles";
+import ArticleNavigation from "@/app/components/ArticleNavigation";
+
 export const metadata = {
   title:
     "Gold Price Forecast Today: XAU/USD Recovers Ahead of NFP While Traders Watch Key $4,500 Resistance",
@@ -302,6 +305,19 @@ export default function GoldAnalysisArticle() {
               management before making any trading decisions.
             </p>
           </section>
+
+<ArticleNavigation
+  previous={{
+    title: "Gold Analysis Today – 3 June 2026",
+    href: "/analysis/gold-analysis-2026-06-03",
+  }}
+  next={{
+    title: "Gold Analysis Today – 5 June 2026",
+    href: "/analysis/gold-analysis-2026-06-05",
+  }}
+/>
+
+<RelatedArticles />
 
         </div>
       </div>

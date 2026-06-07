@@ -1,3 +1,6 @@
+import RelatedArticles from "@/app/components/RelatedArticles";
+import ArticleNavigation from "@/app/components/ArticleNavigation";
+
 export const metadata = {
   title: "Gold Analysis Today | XAUUSD Forecast 5 June 2026",
   description:
@@ -288,6 +291,19 @@ export default function GoldAnalysisArticle() {
               any trade.
             </p>
           </section>
+
+<ArticleNavigation
+  previous={{
+    title: "Gold Analysis Today – 4 June 2026",
+    href: "/analysis/gold-analysis-2026-06-04",
+  }}
+  next={{
+    title: "Gold Price Weekly Review – 6 June 2026",
+    href: "/analysis/gold-analysis-2026-06-06",
+  }}
+/>
+
+<RelatedArticles />
 
         </div>
       </div>

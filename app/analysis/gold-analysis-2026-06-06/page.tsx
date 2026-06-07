@@ -1,3 +1,4 @@
+import ArticleNavigation from "@/app/components/ArticleNavigation";
 import RelatedArticles from "@/app/components/RelatedArticles";
 
 export const metadata = {
@@ -411,6 +412,13 @@ export default function GoldAnalysisArticle() {
               any trade.
             </p>
           </section>
+
+<ArticleNavigation
+  previous={{
+    title: "Gold Analysis Today – 5 June 2026",
+    href: "/analysis/gold-analysis-2026-06-05",
+  }}
+/>
 
 <RelatedArticles />
 
