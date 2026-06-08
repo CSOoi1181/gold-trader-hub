@@ -55,7 +55,7 @@ export default function GoldAnalysisArticle() {
         </h1>
 
         <p className="text-zinc-400 mb-8">
-          Weekly Gold Forecast | XAUUSD Analysis | CPI Week Strategy | Fed Outlook 2026
+          Published on 8 June 2026
         </p>
 
         <div className="space-y-10 text-zinc-300 leading-8">
@@ -103,8 +103,7 @@ export default function GoldAnalysisArticle() {
 
             <p className="mt-4">
               The market interpreted this as evidence of continued U.S. economic resilience, reducing expectations for near-term
-              Federal Reserve rate cuts. Since gold does not yield interest, higher bond yields increase opportunity cost,
-              triggering immediate downside pressure on XAU/USD.
+              Federal Reserve rate cuts. Higher yields increased the opportunity cost of holding gold, triggering sustained selling pressure.
             </p>
           </section>
 
@@ -116,12 +115,10 @@ export default function GoldAnalysisArticle() {
 
             <p>
               The U.S. Consumer Price Index (CPI) release on Wednesday is the most important macroeconomic event of the week.
-              It will directly influence expectations for the upcoming Federal Reserve FOMC meeting.
+              It will directly influence expectations for the upcoming Federal Reserve meeting.
             </p>
 
-            <h3 className="text-xl text-yellow-400 mt-4 mb-2">Inflation Forecasts</h3>
-
-            <ul className="list-disc ml-6 space-y-2">
+            <ul className="list-disc ml-6 mt-4 space-y-2">
               <li>CPI MoM: 0.3%</li>
               <li>Core CPI MoM: 0.3%</li>
               <li>Core CPI YoY: 2.9%</li>
@@ -129,7 +126,7 @@ export default function GoldAnalysisArticle() {
             </ul>
           </section>
 
-          {/* ================= WHY CPI MATTERS ================= */}
+          {/* ================= CPI IMPACT ================= */}
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Why CPI Matters for Gold
@@ -137,25 +134,24 @@ export default function GoldAnalysisArticle() {
 
             <h3 className="text-xl text-green-400 mb-2">Bullish Scenario</h3>
             <p>
-              If inflation comes in lower than expected, Treasury yields may fall and the U.S. Dollar could weaken,
-              supporting a sharp rebound in gold.
+              Lower inflation would weaken the USD and reduce Treasury yields, supporting gold recovery.
             </p>
 
             <ul className="list-disc ml-6 mt-2 space-y-2">
-              <li>Potential rally toward $4,450</li>
+              <li>Rally toward $4,450</li>
               <li>Extension toward $4,500 – $4,545</li>
-              <li>Short-covering momentum likely</li>
+              <li>Short-covering momentum</li>
             </ul>
 
             <h3 className="text-xl text-red-400 mt-6 mb-2">Bearish Scenario</h3>
             <p>
-              If inflation remains elevated, markets may price in further Fed tightening, strengthening the dollar
-              and increasing downside pressure on gold.
+              Higher inflation would strengthen USD and reinforce Fed hawkish policy expectations.
             </p>
 
             <ul className="list-disc ml-6 mt-2 space-y-2">
-              <li>Downside targets: $4,315</li>
-              <li>$4,297 and $4,195 macro support zone</li>
+              <li>Downside $4,315</li>
+              <li>$4,297 support break</li>
+              <li>Macro target $4,195</li>
             </ul>
           </section>
 
@@ -166,35 +162,60 @@ export default function GoldAnalysisArticle() {
             </h2>
 
             <p>
-              Markets are now focused on the upcoming Federal Reserve meeting on 16–17 June 2026.
-              Traders are watching closely for changes in economic projections and the Dot Plot.
+              Markets are positioning ahead of the upcoming FOMC meeting. Traders are focused on Powell’s tone,
+              updated projections, and the Dot Plot guidance.
             </p>
 
             <p className="mt-4">
-              Any indication of fewer rate cuts in 2026 could strengthen the U.S. Dollar and weigh on gold,
-              while dovish signals could trigger a recovery rally.
+              Any indication of fewer rate cuts in 2026 will strengthen USD and pressure gold further,
+              while dovish signals could trigger sharp recovery momentum.
             </p>
           </section>
 
-          {/* ================= CENTRAL BANKS ================= */}
+          {/* ================= CENTRAL BANKS (EXPANDED SEO SECTION) ================= */}
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
-              Central Banks Continue Supporting Gold
+              Central Banks and Long-Term Gold Demand
             </h2>
 
             <p>
-              Despite short-term weakness, structural demand remains strong.
-              China has extended its gold-buying streak to 19 consecutive months.
+              Despite short-term volatility, central banks remain one of the strongest structural drivers of gold demand in 2026.
+              Their behavior continues to shape the long-term bullish foundation of the gold market.
+            </p>
+
+            <p className="mt-4">
+              According to World Gold Council data, global central banks purchased over 244 tonnes of gold in Q1 2026 alone,
+              maintaining historically elevated accumulation levels for the third consecutive year.
+            </p>
+
+            <p className="mt-4">
+              China’s central bank has extended its gold-buying streak to 19 consecutive months,
+              steadily increasing reserves as part of a broader diversification strategy away from US dollar assets.
+            </p>
+
+            <p className="mt-4">
+              This global trend reflects a long-term shift in reserve management, where central banks are:
             </p>
 
             <ul className="list-disc ml-6 mt-4 space-y-2">
-              <li>244 tonnes purchased by central banks in Q1 2026</li>
-              <li>Gold now exceeds U.S. Treasuries in some reserve allocations</li>
-              <li>Ongoing de-dollarization trend supports long-term demand</li>
+              <li>Diversifying away from US Treasury exposure</li>
+              <li>Hedging against currency volatility and geopolitical risk</li>
+              <li>Increasing gold’s share in total reserve portfolios</li>
+              <li>Strengthening financial independence from USD dominance</li>
             </ul>
+
+            <p className="mt-4">
+              In several emerging markets, gold now represents a larger portion of official reserves than US Treasuries,
+              signaling a structural shift in global monetary allocation.
+            </p>
+
+            <p className="mt-4">
+              This consistent institutional demand acts as a long-term “price floor” for gold,
+              limiting deep and sustained bearish cycles even during aggressive short-term selloffs.
+            </p>
           </section>
 
-          {/* ================= TECHNICAL LEVELS ================= */}
+          {/* ================= TECHNICAL ================= */}
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Key Technical Levels
@@ -223,10 +244,10 @@ export default function GoldAnalysisArticle() {
             </h2>
 
             <ul className="list-disc ml-6 space-y-2">
-              <li><b>Mon–Tue:</b> Range-bound consolidation ($4,315 – $4,366)</li>
-              <li><b>Wednesday:</b> CPI volatility event (highest impact)</li>
-              <li><b>Thursday:</b> ECB rate decision influence</li>
-              <li><b>Friday:</b> Position adjustment before FOMC week</li>
+              <li>Mon–Tue: Consolidation ($4,315 – $4,366)</li>
+              <li>Wednesday: CPI volatility event</li>
+              <li>Thursday: ECB influence</li>
+              <li>Friday: Position adjustments ahead of FOMC</li>
             </ul>
           </section>
 
@@ -237,13 +258,13 @@ export default function GoldAnalysisArticle() {
             </h2>
 
             <p>
-              The short-term outlook for XAU/USD remains bearish following Friday’s strong NFP surprise.
-              However, the market is now approaching major support between $4,315 and $4,195.
+              The short-term outlook for XAU/USD remains bearish following strong US employment data.
+              However, gold is approaching a major support zone between $4,315 and $4,195.
             </p>
 
             <p className="mt-4">
-              The CPI report will determine whether gold continues its correction or enters a recovery phase.
-              Traders should remain patient and prioritize risk management during high volatility events.
+              CPI will likely determine the next major directional breakout, making this week a critical
+              turning point for gold traders.
             </p>
 
             <p className="mt-4 font-semibold text-yellow-400">
@@ -251,15 +272,15 @@ export default function GoldAnalysisArticle() {
             </p>
           </section>
 
-          {/* DISCLAIMER */}
+          {/* ================= UPDATED DISCLAIMER ================= */}
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Risk Disclaimer
             </h2>
 
             <p>
-              This content is for educational purposes only and does not constitute financial advice.
-              Trading leveraged products carries risk.
+              This analysis is provided for educational purposes only and does not constitute financial advice.
+              Trading leveraged products carries substantial risk. Always conduct your own research and apply proper risk management before entering any trade.
             </p>
           </section>
 
