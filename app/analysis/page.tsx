@@ -9,6 +9,13 @@ export const metadata = {
 
 const articles = [
   {
+  title: "XAU/USD Weekly Outlook – 8 June 2026 | Gold Hits 10-Week Low After NFP Shockwave",
+  date: "8 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-08",
+  summary:
+    "Gold trades under pressure near 10-week lows after strong US Non-Farm Payrolls data. Explore CPI week strategy, Fed expectations, liquidity zones, key support and resistance levels, and trading scenarios for XAUUSD.",
+  },
+  {
     title: "Gold Risk Management Report – 6 June 2026",
     date: "6 June 2026",
     slug: "/analysis/gold-analysis-2026-06-06",
