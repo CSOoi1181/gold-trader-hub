@@ -13,25 +13,22 @@ export default function FeaturedAnalysis() {
       </div>
 
       <h3 className="text-xl font-semibold text-white mb-2">
-        Gold Price Weekly Review (1–6 June 2026): XAU/USD Crashes 5.5% After NFP Shock
+        XAU/USD Weekly Outlook (8 June 2026): Gold Hits 10-Week Low After NFP Shockwave – CPI Week Setup
       </h3>
 
       <p className="text-sm text-zinc-500 mb-4">
-        Published: 6 June 2026
+        Published: 8 June 2026
       </p>
 
       <p className="text-zinc-300 leading-8 mb-6">
-        Gold suffered one of its sharpest weekly declines of 2026,
-        plunging from near $4,580 to close around $4,328 after stronger-
-        than-expected U.S. Nonfarm Payrolls data triggered aggressive
-        liquidation across precious metals markets. Traders now focus on
-        the critical $4,300 support level and whether gold can stabilize
-        or extend losses toward the $4,200 demand zone when markets
-        reopen next week.
+        Gold (XAU/USD) remains under pressure near the $4,327–$4,348 range after a strong U.S. Non-Farm Payrolls report
+        triggered a sharp repricing of Federal Reserve rate expectations. The dollar strengthened and Treasury yields surged,
+        pushing gold to its lowest level in nearly ten weeks. Traders are now focused on the upcoming U.S. CPI inflation report,
+        which is expected to determine whether gold extends its correction toward $4,200 or rebounds back above $4,500.
       </p>
 
       <Link
-        href="/analysis/gold-analysis-2026-06-06"
+        href="/analysis/gold-analysis-2026-06-08"
         className="inline-block bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg transition"
       >
         Read Full Analysis →
