@@ -418,6 +418,10 @@ export default function GoldAnalysisArticle() {
     title: "Gold Analysis Today – 5 June 2026",
     href: "/analysis/gold-analysis-2026-06-05",
   }}
+  next={{
+    title: "Gold Price Weekly Review – 8 June 2026",
+    href: "/analysis/gold-analysis-2026-06-08",
+  }}
 />
 
 <RelatedArticles />
