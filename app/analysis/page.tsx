@@ -9,6 +9,13 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today – Gold Holds Above $4,300 Ahead of CPI Data | 9 June 2026",
+  date: "9 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-09",
+  summary:
+    "XAU/USD stabilizes above $4,300 ahead of the crucial U.S. CPI report. Explore key support and resistance levels, Federal Reserve expectations, central bank demand, technical analysis, and trading scenarios.",
+  },
+  {
   title: "XAU/USD Weekly Outlook – 8 June 2026 | Gold Hits 10-Week Low After NFP Shockwave",
   date: "8 June 2026",
   slug: "/analysis/gold-analysis-2026-06-08",
