@@ -60,6 +60,19 @@ export default function Home() {
           <div className="space-y-4">
 
             <Link
+              href="/analysis/gold-analysis-2026-06-09"
+              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
+            >
+              <h3 className="text-lg font-semibold text-white">
+                Gold Analysis Today – Gold Holds Above $4,300 Ahead of CPI Data | 9 June 2026
+              </h3>
+
+              <p className="text-zinc-400 text-sm mt-1">
+                Daily Analysis • Published 9 June 2026
+              </p>
+            </Link>
+
+            <Link
               href="/analysis/gold-analysis-2026-06-08"
               className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
             >
