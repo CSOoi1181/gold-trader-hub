@@ -774,8 +774,8 @@ export default function GoldAnalysisArticle() {
 
 <ArticleNavigation
   previous={{
-    title: "Gold Price Weekly Review | XAU/USD Forecast 6 June 2026",
-    href: "/analysis/gold-analysis-2026-06-06",
+    title: "Gold Price Weekly Review – 8 June 2026",
+    href: "/analysis/gold-analysis-2026-06-08",
   }}
 />
 

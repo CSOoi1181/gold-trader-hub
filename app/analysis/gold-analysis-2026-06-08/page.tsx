@@ -289,6 +289,10 @@ export default function GoldAnalysisArticle() {
               title: "Gold Analysis Today – 6 June 2026",
               href: "/analysis/gold-analysis-2026-06-06",
             }}
+            next={{
+                title: "Gold Analysis Today – Gold Holds Above $4,300 Ahead of CPI Data | 9 June 2026",
+                href: "/analysis/gold-analysis-2026-06-09",
+         }}
           />
 
           <RelatedArticles />
