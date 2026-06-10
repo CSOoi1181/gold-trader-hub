@@ -3,7 +3,7 @@ export default function MarketSummary() {
     <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-6">
 
       <h2 className="text-2xl font-bold text-yellow-400 mb-4">
-        Gold Market Summary – 10 June 2026
+        Gold Market Summary
       </h2>
 
       <div className="space-y-4 text-zinc-300 leading-7">
