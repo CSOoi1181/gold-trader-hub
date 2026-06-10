@@ -778,7 +778,7 @@ export default function GoldAnalysisArticle() {
     href: "/analysis/gold-analysis-2026-06-08",
   }}
   next={{
-                title: "Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Trump Announcements Drive Market Volatility | 10 June 2026",
+                title: "Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Announcements Drive Market Volatility | 10 June 2026",
                 href: "/analysis/gold-analysis-2026-06-10",
          }}
 />
