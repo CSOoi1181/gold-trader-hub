@@ -13,7 +13,7 @@ export default function FeaturedAnalysis() {
       </div>
 
       <h3 className="text-xl font-semibold text-white mb-2">
-        Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Trump Announcements Drive Market Volatility | 10 June 2026
+        Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Announcements Drive Market Volatility | 10 June 2026
       </h3>
 
       <p className="text-sm text-zinc-500 mb-4">
