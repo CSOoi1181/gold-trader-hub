@@ -12,9 +12,9 @@ export default function MarketSummary() {
           Gold prices (XAU/USD) remain under pressure on 10 June 2026 as traders
           prepare for the highly anticipated U.S. Consumer Price Index (CPI)
           inflation report. After breaking below the important
-          <span className="text-yellow-400 font-semibold"> $4,300</span>
+          <span className="text-yellow-400 font-semibold"> $4,300 </span>
           psychological level, gold is currently trading within the
-          <span className="text-yellow-400 font-semibold"> $4,250–$4,330</span>
+          <span className="text-yellow-400 font-semibold"> $4,250–$4,330 </span>
           range as investors reassess expectations for future Federal Reserve
           interest rate cuts.
         </p>
