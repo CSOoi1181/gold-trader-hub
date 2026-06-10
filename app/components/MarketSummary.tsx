@@ -1,3 +1,4 @@
+```tsx
 export default function MarketSummary() {
   return (
     <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-6">
@@ -6,39 +7,55 @@ export default function MarketSummary() {
         Gold Market Summary
       </h2>
 
-      <div className="space-y-4 text-zinc-300 leading-7">
+      <div className="space-y-4 text-zinc-300">
 
         <p>
-          Gold (XAU/USD) is trading around the <span className="text-yellow-400 font-semibold">$4,340</span> level,
-          consolidating after a volatile session that saw prices briefly test the $4,268 region before recovering.
-          The market remains in a corrective phase following stronger-than-expected U.S. Nonfarm Payrolls data,
-          which reinforced expectations of a prolonged high interest rate environment from the Federal Reserve.
+          Gold (XAU/USD) remains under pressure near the
+          <span className="text-yellow-400 font-semibold">
+            {" "} $4,250–$4,330
+          </span>
+          {" "}region after breaking below the important psychological
+          $4,300 level. Investors are now awaiting today's highly
+          anticipated U.S. Consumer Price Index (CPI) report, which is
+          widely expected to become the next major catalyst for the gold
+          market.
         </p>
 
         <p>
-          Despite continued pressure from a stronger U.S. Dollar and elevated Treasury yields near 4.5%,
-          buyers have repeatedly defended the critical $4,300 support zone. This suggests that institutional demand
-          is still active, preventing a deeper breakdown in the short term.
+          Tuesday's session extended the weakness seen after last week's
+          stronger-than-expected U.S. Non-Farm Payrolls report. Rising
+          Treasury yields and a stronger U.S. Dollar continued to pressure
+          precious metals as traders further reduced expectations for
+          Federal Reserve interest-rate cuts in 2026.
         </p>
 
         <p>
-          Market participants are now fully focused on the upcoming U.S. CPI inflation report, which is expected
-          to act as the next major catalyst for gold. The data will determine whether inflation remains sticky enough
-          to support higher yields or begins to ease, allowing gold to stabilize and recover.
+          Additional volatility has emerged from President Donald Trump's
+          latest comments regarding trade policy, inflation and Middle East
+          developments. Although geopolitical risks normally support safe-
+          haven demand, markets are currently focusing more on their
+          inflationary impact and how they may influence future Federal
+          Reserve decisions.
+        </p>
+
+        <p>
+          Despite recent weakness, long-term fundamentals remain
+          constructive. Ongoing central bank accumulation, concerns over
+          global debt levels and continued diversification away from
+          traditional reserve assets continue to provide structural support
+          for gold prices.
         </p>
 
         <div className="border-t border-zinc-800 pt-4">
 
           <h3 className="font-semibold text-white mb-2">
-            Key Market Drivers
+            Key Support Levels
           </h3>
 
           <ul className="space-y-2">
-            <li>📊 U.S. CPI Inflation Report (Primary catalyst this week)</li>
-            <li>💵 U.S. Dollar Index (DXY) strength</li>
-            <li>📈 Treasury yields hovering near 4.5%</li>
-            <li>🏦 Federal Reserve higher-for-longer policy stance</li>
-            <li>🌍 Central bank gold accumulation support</li>
+            <li>🟢 $4,200</li>
+            <li>🟢 $4,180</li>
+            <li>🟢 $4,113</li>
           </ul>
 
         </div>
@@ -46,19 +63,14 @@ export default function MarketSummary() {
         <div className="border-t border-zinc-800 pt-4">
 
           <h3 className="font-semibold text-white mb-2">
-            Technical Structure
+            Key Resistance Levels
           </h3>
 
-          <p>
-            Gold remains in a consolidation phase with price action trapped between
-            support at <span className="text-green-400 font-semibold">$4,300</span> and resistance near
-            <span className="text-red-400 font-semibold"> $4,369 – $4,420</span>.
-          </p>
-
-          <p className="mt-3">
-            Momentum indicators remain neutral, suggesting that the market is waiting for CPI data
-            before establishing a new directional trend.
-          </p>
+          <ul className="space-y-2">
+            <li>🔴 $4,358</li>
+            <li>🔴 $4,385</li>
+            <li>🔴 $4,435</li>
+          </ul>
 
         </div>
 
@@ -69,9 +81,14 @@ export default function MarketSummary() {
           </h3>
 
           <p>
-            <span className="text-yellow-400 font-semibold">Neutral to slightly bearish</span> in the short term,
-            as macroeconomic data continues to favor a strong U.S. Dollar environment.
-            However, strong buying interest near $4,300 indicates that downside momentum remains limited.
+            <span className="text-red-400 font-semibold">
+              Cautiously Bearish
+            </span>
+            {" "}in the short term as traders continue to price in a
+            higher-for-longer Federal Reserve stance. Rising Treasury
+            yields and Dollar strength remain headwinds for gold, while
+            today's CPI report could determine whether XAU/USD extends its
+            correction or begins stabilizing above major support zones.
           </p>
 
         </div>
@@ -79,18 +96,67 @@ export default function MarketSummary() {
         <div className="border-t border-zinc-800 pt-4">
 
           <h3 className="font-semibold text-white mb-2">
-            Next Major Catalyst
+            Major Drivers Behind Gold Prices
+          </h3>
+
+          <ul className="space-y-2">
+            <li>📊 U.S. CPI inflation report.</li>
+            <li>🏦 Federal Reserve rate expectations.</li>
+            <li>📈 U.S. Treasury yield movements.</li>
+            <li>💵 U.S. Dollar Index (DXY).</li>
+            <li>🌍 Middle East geopolitical developments.</li>
+            <li>📰 President Donald Trump's policy announcements.</li>
+            <li>🏛 Continued central bank gold purchases.</li>
+          </ul>
+
+        </div>
+
+        <div className="border-t border-zinc-800 pt-4">
+
+          <h3 className="font-semibold text-white mb-2">
+            Why Central Banks Continue Buying Gold
           </h3>
 
           <p>
-            The U.S. CPI inflation report will determine the next major move for XAU/USD.
-            A softer inflation print could trigger a recovery toward $4,420–$4,500,
-            while a stronger-than-expected reading may extend the correction toward $4,270–$4,200.
+            Central banks around the world remain one of the strongest
+            long-term pillars supporting gold prices. Countries including
+            China, Poland and several emerging economies continue
+            increasing gold reserves as part of broader diversification
+            strategies aimed at reducing reliance on traditional fiat
+            currencies.
+          </p>
+
+          <p className="mt-4">
+            This steady accumulation provides an important source of
+            structural demand and helps cushion the market during periods
+            of speculative selling. Although central bank buying may not
+            prevent short-term corrections, it remains one of the key
+            reasons many analysts continue to maintain a constructive
+            longer-term outlook for gold.
+          </p>
+
+        </div>
+
+        <div className="border-t border-zinc-800 pt-4">
+
+          <h3 className="font-semibold text-white mb-2">
+            What Traders Should Watch Today
+          </h3>
+
+          <p>
+            All eyes are on the U.S. CPI report. A softer inflation reading
+            could weaken the U.S. Dollar and Treasury yields, supporting a
+            recovery toward the $4,358-$4,385 resistance zone. However,
+            stronger inflation data may reinforce expectations for higher
+            interest rates and expose gold to further downside toward
+            $4,200 and below.
           </p>
 
         </div>
 
       </div>
+
     </div>
   );
 }
+```
