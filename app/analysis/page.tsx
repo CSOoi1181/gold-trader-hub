@@ -9,6 +9,13 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Trump Announcements Drive Market Volatility | 10 June 2026",
+  date: "10 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-10",
+  summary:
+    "XAU/USD remains under pressure below $4,300 as traders await U.S. CPI data. Explore Federal Reserve expectations, Trump policy developments, key support and resistance levels, technical analysis and trading scenarios.",
+  },
+  {
   title: "Gold Analysis Today – Gold Holds Above $4,300 Ahead of CPI Data | 9 June 2026",
   date: "9 June 2026",
   slug: "/analysis/gold-analysis-2026-06-09",
