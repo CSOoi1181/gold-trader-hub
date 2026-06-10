@@ -315,7 +315,7 @@ export default function GoldAnalysisArticle() {
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
-              How Trump's Latest Announcements Are Influencing Gold Prices
+              Latest Announcements Are Influencing Gold Prices
             </h2>
 
             <p>
@@ -341,7 +341,7 @@ export default function GoldAnalysisArticle() {
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
-              Trump, Iran and the Middle East Risk Premium
+              Iran and the Middle East Risk Premium
             </h2>
 
             <p>
@@ -391,7 +391,7 @@ export default function GoldAnalysisArticle() {
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
-              Trump's Trade Policies and Inflation Concerns
+              Trade Policies and Inflation Concerns
             </h2>
 
             <p>
@@ -641,7 +641,7 @@ export default function GoldAnalysisArticle() {
           <section>
 
             <h3 className="text-xl font-semibold text-yellow-400 mb-2">
-              How Does Donald Trump Affect Gold Prices?
+              Does Donald Trump Affect Gold Prices?
             </h3>
 
             <p>
