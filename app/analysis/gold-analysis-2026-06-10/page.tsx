@@ -3,7 +3,7 @@ import RelatedArticles from "@/app/components/RelatedArticles";
 
 export const metadata = {
   title:
-    "Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Trump Announcements Drive Market Volatility | 10 June 2026",
+    "Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Announcements Drive Market Volatility | 10 June 2026",
   description:
     "Gold Analysis Today for 10 June 2026. XAU/USD remains under pressure below $4,300 as traders await U.S. CPI data. Explore Federal Reserve expectations, Trump policy developments, key support and resistance levels, technical analysis and trading scenarios.",
 };
@@ -12,7 +12,7 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Trump Announcements Drive Market Volatility | 10 June 2026",
+    "Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Announcements Drive Market Volatility | 10 June 2026",
   description:
     "Gold Analysis Today for 10 June 2026. XAU/USD remains under pressure below $4,300 as traders await U.S. CPI data. Explore Federal Reserve expectations, Trump policy developments, key support and resistance levels, technical analysis and trading scenarios.",
   image: "https://gold-trader-hub.vercel.app/og-image.jpg",
