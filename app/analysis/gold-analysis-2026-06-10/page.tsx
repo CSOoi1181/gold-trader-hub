@@ -809,8 +809,8 @@ export default function GoldAnalysisArticle() {
 
           <ArticleNavigation
             previous={{
-              title: "Gold Price Weekly Review | 6 June 2026",
-              href: "/analysis/gold-analysis-2026-06-06",
+              title: "Gold Analysis Today – Gold Holds Above $4,300 Ahead of CPI Data | 9 June 2026",
+              href: "/analysis/gold-analysis-2026-06-09",
             }}
           />
 
