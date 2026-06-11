@@ -812,6 +812,10 @@ export default function GoldAnalysisArticle() {
               title: "Gold Analysis Today – Gold Holds Above $4,300 Ahead of CPI Data | 9 June 2026",
               href: "/analysis/gold-analysis-2026-06-09",
             }}
+            next={{
+                title: "Gold Analysis Today – XAU/USD Slides Toward $4,050 as CPI Shock, Rising Treasury Yields and US-Iran Tensions Pressure Gold Prices | 11 June 2026",
+                href: "/analysis/gold-analysis-2026-06-11",
+         }}
           />
 
           <RelatedArticles />
