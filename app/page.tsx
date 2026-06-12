@@ -60,6 +60,19 @@ export default function Home() {
           <div className="space-y-4">
             
             <Link
+              href="/analysis/gold-analysis-2026-06-12"
+              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
+            >
+              <h3 className="text-lg font-semibold text-white">
+                Gold Analysis Today – XAU/USD Holds Near $4,200 as Fed Rate Hike Fears, Hot Inflation Data and US-Iran Peace Hopes Weigh on Gold Prices | 12 June 2026
+              </h3>
+
+              <p className="text-zinc-400 text-sm mt-1">
+                Daily Analysis • Published 12 June 2026
+              </p>
+            </Link>
+
+            <Link
               href="/analysis/gold-analysis-2026-06-11"
               className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
             >
@@ -108,19 +121,6 @@ export default function Home() {
 
               <p className="text-zinc-400 text-sm mt-1">
                 Daily Analysis • Published 8 June 2026
-              </p>
-            </Link>
-
-            <Link
-              href="/analysis/gold-analysis-2026-06-06"
-              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
-            >
-              <h3 className="text-lg font-semibold text-white">
-                Gold Price Weekly Review (1–6 June 2026)
-              </h3>
-
-              <p className="text-zinc-400 text-sm mt-1">
-                Weekly Review • Published 6 June 2026
               </p>
             </Link>
 
