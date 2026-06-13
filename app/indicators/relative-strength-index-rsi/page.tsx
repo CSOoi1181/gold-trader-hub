@@ -1,21 +1,20 @@
-import Image from "next/image";
 import ArticleNavigation from "@/app/components/ArticleNavigation";
 import RelatedArticles from "@/app/components/RelatedArticles";
 
 export const metadata = {
   title:
-    "Relative Strength Index (RSI) Indicator Guide | How to Use RSI in MT4 & MT5",
+    "Relative Strength Index (RSI) Indicator Guide | Gold Trader Hub",
   description:
-    "Complete beginner-to-advanced guide to the Relative Strength Index (RSI) indicator. Learn RSI formula, settings, overbought and oversold zones, divergence, failure swings, MT4 & MT5 setup, scalping and swing trading strategies.",
+    "Complete encyclopedia and trading guide for the Relative Strength Index (RSI). Learn the history, formula, MT4 & MT5 setup, divergence, trading strategies, advantages, disadvantages and professional techniques.",
 };
 
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Relative Strength Index (RSI) Indicator Guide | How to Use RSI in MT4 & MT5",
+    "Relative Strength Index (RSI): Complete Encyclopedia and Trading Guide",
   description:
-    "Learn how to use RSI indicator in MT4 and MT5 with complete explanations, strategies and examples.",
+    "Learn everything about the Relative Strength Index (RSI), including its history, mathematical formula, trading strategies, divergences, advantages, disadvantages and MT4/MT5 applications.",
   image: "https://gold-trader-hub.vercel.app/og-image.jpg",
   author: {
     "@type": "Organization",
@@ -29,11 +28,14 @@ const articleSchema = {
       url: "https://gold-trader-hub.vercel.app/logo.png",
     },
   },
-  datePublished: "2026-06-10",
-  dateModified: "2026-06-10",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id":
+      "https://gold-trader-hub.vercel.app/indicators/relative-strength-index-rsi",
+  },
 };
 
-export default function RSIPage() {
+export default function RelativeStrengthIndexPage() {
   return (
     <main className="min-h-screen bg-black text-white">
 
@@ -47,543 +49,1881 @@ export default function RSIPage() {
       <div className="max-w-5xl mx-auto px-6 py-10">
 
         <h1 className="text-4xl font-bold text-yellow-400 mb-4">
-          Relative Strength Index (RSI) Indicator Guide
+          Relative Strength Index (RSI): Complete Encyclopedia and Trading Guide
         </h1>
 
         <p className="text-zinc-400 mb-8">
-          Published on 10 June 2026
+          Last Updated: June 2026
         </p>
 
         <div className="space-y-8 text-zinc-300 leading-8">
-<section>
-  <h2 className="text-2xl font-semibold text-white mb-3">
-    What is Relative Strength Index (RSI)?
-  </h2>
 
-  <p>
-    The Relative Strength Index (RSI) is one of the most popular momentum
-    indicators developed by J. Welles Wilder.
-  </p>
+          {/* Introduction */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Introduction
+            </h2>
+
+            <p>
+              The Relative Strength Index (RSI) is one of the most widely used
+              technical indicators in financial markets. It belongs to the
+              family of momentum oscillators and helps traders measure the
+              speed and magnitude of price movements.
+            </p>
+
+            <p className="mt-4">
+              Since its introduction in 1978, the RSI has become one of the
+              most popular indicators among forex traders, stock investors,
+              commodity traders, cryptocurrency investors and institutional
+              professionals.
+            </p>
+
+            <p className="mt-4">
+              Despite the emergence of countless modern indicators, the RSI
+              remains one of the few tools that have survived decades of market
+              evolution and continue to be actively used by traders worldwide.
+            </p>
+
+            <p className="mt-4">
+              From simple overbought and oversold conditions to advanced
+              divergence analysis and trend identification, the RSI has become
+              an essential component of many professional trading systems.
+            </p>
+          </section>
+
+          {/* Birth of RSI */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              The Birth of RSI
+            </h2>
+
+            <p>
+              Before the 1970s, traders mainly relied on price charts and
+              moving averages to analyze market trends. However, there was no
+              efficient method to quantify momentum and determine whether
+              buyers or sellers were becoming exhausted.
+            </p>
+
+            <p className="mt-4">
+              To solve this problem, American mechanical engineer and technical
+              analyst J. Welles Wilder Jr. developed the Relative Strength
+              Index.
+            </p>
+
+            <p className="mt-4">
+              Wilder introduced RSI in his famous book:
+            </p>
+
+            <div className="bg-zinc-900 border border-yellow-500 rounded-lg p-5 mt-4">
+              <p className="text-yellow-400 font-semibold">
+                "New Concepts in Technical Trading Systems"
+              </p>
+
+              <p className="text-zinc-400 mt-2">
+                Published in 1978
+              </p>
+            </div>
+
+            <p className="mt-4">
+              The book revolutionized technical analysis and introduced several
+              indicators that remain popular today.
+            </p>
+          </section>
+
+          {/* J. Welles Wilder */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Who Was J. Welles Wilder?
+            </h2>
+
+            <p>
+              J. Welles Wilder Jr. was an American engineer, real-estate
+              developer and technical analyst. Although he was not a Wall
+              Street trader, his analytical approach and engineering background
+              enabled him to develop some of the most influential tools in
+              modern trading.
+            </p>
+
+            <p className="mt-4">
+              Today, Wilder is considered one of the founding fathers of
+              technical analysis.
+            </p>
+
+            <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 text-xl font-semibold mb-4">
+                Famous Indicators Created by J. Welles Wilder
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-3">
+                <li>Relative Strength Index (RSI)</li>
+                <li>Average True Range (ATR)</li>
+                <li>Parabolic SAR</li>
+                <li>Directional Movement Index (DMI)</li>
+                <li>Average Directional Index (ADX)</li>
+              </ul>
+
+            </div>
+
+            <p className="mt-4">
+              More than forty years later, his indicators are still integrated
+              into MetaTrader 4, MetaTrader 5, TradingView and nearly every
+              major charting platform in the world.
+            </p>
+          </section>
+
+          {/* Why RSI Was Created */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Why Was RSI Created?
+            </h2>
+
+            <p>
+              The primary objective behind the Relative Strength Index was to
+              provide traders with a mathematical way to measure momentum.
+            </p>
+
+            <p className="mt-4">
+              Wilder wanted traders to answer several important questions:
+            </p>
+
+            <ul className="list-disc ml-6 mt-4 space-y-2">
+
+              <li>
+                Is the market becoming excessively bullish?
+              </li>
+
+              <li>
+                Is selling pressure weakening?
+              </li>
+
+              <li>
+                Are buyers losing momentum?
+              </li>
+
+              <li>
+                Is a reversal becoming likely?
+              </li>
+
+              <li>
+                Is the current trend still healthy?
+              </li>
+
+            </ul>
+
+            <p className="mt-4">
+              The RSI transformed these qualitative observations into numerical
+              values ranging from 0 to 100, making market momentum easier to
+              understand and quantify.
+            </p>
+          </section>
+
+          {/* Why RSI Became Popular */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Why Did RSI Become So Popular?
+            </h2>
+
+            <p>
+              Several factors contributed to the enormous popularity of the
+              Relative Strength Index.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-5 mt-6">
+
+              <div className="bg-zinc-900 rounded-xl border border-zinc-700 p-5">
+                <h3 className="text-green-400 text-lg font-semibold mb-3">
+                  Simple to Understand
+                </h3>
+
+                <p>
+                  Traders can quickly identify overbought and oversold
+                  conditions using the 70 and 30 levels.
+                </p>
+              </div>
+
+              <div className="bg-zinc-900 rounded-xl border border-zinc-700 p-5">
+                <h3 className="text-green-400 text-lg font-semibold mb-3">
+                  Works Across Markets
+                </h3>
+
+                <p>
+                  RSI can be used in forex, stocks, commodities, indices and
+                  cryptocurrencies.
+                </p>
+              </div>
+
+              <div className="bg-zinc-900 rounded-xl border border-zinc-700 p-5">
+                <h3 className="text-green-400 text-lg font-semibold mb-3">
+                  Applicable To All Timeframes
+                </h3>
+
+                <p>
+                  Traders use RSI for scalping, day trading, swing trading and
+                  long-term investing.
+                </p>
+              </div>
+
+              <div className="bg-zinc-900 rounded-xl border border-zinc-700 p-5">
+                <h3 className="text-green-400 text-lg font-semibold mb-3">
+                  Powerful Divergence Signals
+                </h3>
+
+                <p>
+                  RSI divergence often provides early warning signs of trend
+                  reversals before price itself confirms them.
+                </p>
+              </div>
+
+            </div>
+
+            <p className="mt-5">
+              Because of these advantages, the RSI became one of the most
+              universally accepted indicators in technical analysis.
+            </p>
+          </section>
+          {/* Mathematics Behind RSI */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              The Mathematics Behind RSI
+            </h2>
+
+            <p>
+              One reason the Relative Strength Index has survived for nearly
+              half a century is because it is based on mathematics rather than
+              subjective opinions.
+            </p>
+
+            <p className="mt-4">
+              Every RSI value is calculated from the balance between recent
+              bullish and bearish price movements.
+            </p>
+
+            <p className="mt-4">
+              The indicator converts this relationship into a number between
+              0 and 100, allowing traders to visualize momentum in a simple
+              and intuitive manner.
+            </p>
+          </section>
+
+          {/* Formula */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              RSI Formula
+            </h2>
+
+            <div className="bg-zinc-900 border border-yellow-500 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 text-xl font-semibold mb-4">
+                Relative Strength Index Formula
+              </h3>
+
+              <div className="text-center text-2xl font-bold text-white">
+                RSI = 100 − (100 ÷ (1 + RS))
+              </div>
+
+            </div>
+
+            <p className="mt-5">
+              Where:
+            </p>
+
+            <ul className="list-disc ml-6 mt-4 space-y-2">
+
+              <li>
+                RSI = Relative Strength Index
+              </li>
+
+              <li>
+                RS = Relative Strength
+              </li>
+
+              <li>
+                RS = Average Gain ÷ Average Loss
+              </li>
+
+            </ul>
+
+            <p className="mt-5">
+              The calculation compares the average size of bullish candles
+              with the average size of bearish candles over a specified period.
+            </p>
+          </section>
+
+          {/* Relative Strength */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Understanding Relative Strength (RS)
+            </h2>
+
+            <p>
+              Relative Strength (RS) is the heart of the RSI calculation.
+            </p>
+
+            <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 text-lg font-semibold mb-4">
+                Relative Strength Formula
+              </h3>
+
+              <div className="text-center text-2xl font-bold">
+                RS = Average Gain ÷ Average Loss
+              </div>
+
+            </div>
+
+            <p className="mt-5">
+              If buyers are stronger than sellers, RS increases and the RSI
+              moves upward.
+            </p>
+
+            <p className="mt-4">
+              Conversely, when sellers dominate, RS decreases and the RSI
+              moves lower.
+            </p>
+          </section>
+
+          {/* Why RSI Between 0 and 100 */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Why Does RSI Range Between 0 and 100?
+            </h2>
+
+            <p>
+              The mathematical structure of RSI prevents it from exceeding
+              100 or falling below 0.
+            </p>
+
+            <p className="mt-4">
+              This creates a bounded oscillator, making it easier to identify
+              extreme conditions.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-5 mt-6">
+
+              <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-5">
+                <h3 className="text-red-400 font-semibold text-lg mb-3">
+                  0–30
+                </h3>
+
+                <p>
+                  Oversold region.
+                </p>
+              </div>
+
+              <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-5">
+                <h3 className="text-yellow-400 font-semibold text-lg mb-3">
+                  30–70
+                </h3>
 
-  <p className="mt-4">
-    RSI measures the speed and magnitude of recent price movements and
-    oscillates between 0 and 100.
-  </p>
+                <p>
+                  Neutral territory.
+                </p>
+              </div>
 
-  <p className="mt-4">
-    Traders commonly use RSI to identify:
-  </p>
+              <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-5">
+                <h3 className="text-green-400 font-semibold text-lg mb-3">
+                  70–100
+                </h3>
 
-  <ul className="list-disc ml-6 mt-4 space-y-2">
-    <li>Overbought conditions.</li>
-    <li>Oversold conditions.</li>
-    <li>Trend momentum.</li>
-    <li>Potential reversals.</li>
-    <li>Divergence signals.</li>
-    <li>Continuation opportunities.</li>
-  </ul>
+                <p>
+                  Overbought region.
+                </p>
+              </div>
 
-  <p className="mt-4">
-    RSI is available by default in MetaTrader 4 (MT4) and MetaTrader 5
-    (MT5), making it one of the most widely used indicators among forex,
-    gold, stock and cryptocurrency traders.
-  </p>
-</section>
-<section>
+            </div>
+          </section>
 
-<h2 className="text-2xl font-semibold text-white mb-3">
-The Mathematics Behind RSI
-</h2>
+          {/* Standard Setting */}
 
-<p>
-RSI is calculated using the following formula:
-</p>
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Standard RSI Setting (14)
+            </h2>
 
-<div className="bg-zinc-900 border border-yellow-500 p-6 rounded-xl mt-6 text-center">
+            <p>
+              J. Welles Wilder originally designed RSI using a 14-period
+              lookback.
+            </p>
 
-<p className="text-2xl text-yellow-400">
-RSI = 100 − [100 / (1 + RS)]
-</p>
+            <p className="mt-4">
+              Today, RSI(14) remains the most commonly used setting among
+              professional traders.
+            </p>
 
-</div>
+            <div className="bg-zinc-900 border border-yellow-500 rounded-xl p-6 mt-5">
 
-<p className="mt-6">
-Where:
-</p>
+              <h3 className="text-yellow-400 text-xl font-semibold mb-4">
+                Default Setting
+              </h3>
 
-<ul className="list-disc ml-6 mt-4 space-y-2">
+              <ul className="space-y-3">
 
-<li>
-RS = Average Gain ÷ Average Loss
-</li>
+                <li>
+                  Period = 14
+                </li>
 
-<li>
-Standard calculation period = 14 candles
-</li>
+                <li>
+                  Apply To = Close Price
+                </li>
 
-</ul>
+                <li>
+                  Upper Level = 70
+                </li>
 
-<p className="mt-4">
-Because of the formula, RSI can never exceed 100 or fall below 0.
-</p>
+                <li>
+                  Lower Level = 30
+                </li>
 
-</section>
-<section>
+              </ul>
 
-<h2 className="text-2xl font-semibold text-white mb-3">
-How to Interpret RSI
-</h2>
+            </div>
+          </section>
 
-<div className="overflow-x-auto">
+          {/* RSI 9 */}
 
-<table className="w-full border border-zinc-700">
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              RSI 9 Setting
+            </h2>
 
-<thead className="bg-zinc-900">
+            <p>
+              Some traders prefer RSI(9), especially scalpers and intraday
+              traders.
+            </p>
 
-<tr>
+            <p className="mt-4">
+              Because fewer candles are used, RSI becomes more sensitive and
+              responds faster to price changes.
+            </p>
 
-<th className="p-4 border border-zinc-700">
-RSI Value
-</th>
+            <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 mt-5">
 
-<th className="p-4 border border-zinc-700">
-Meaning
-</th>
+              <h3 className="text-green-400 text-xl font-semibold mb-4">
+                Best For
+              </h3>
 
-</tr>
+              <ul className="list-disc ml-6 space-y-2">
 
-</thead>
+                <li>M1 Scalping</li>
 
-<tbody>
+                <li>M5 Scalping</li>
 
-<tr>
+                <li>M15 Day Trading</li>
 
-<td className="p-4 border border-zinc-700">
-Above 70
-</td>
+              </ul>
 
-<td className="p-4 border border-zinc-700">
-Overbought
-</td>
+            </div>
+          </section>
 
-</tr>
+          {/* RSI 21 */}
 
-<tr>
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              RSI 21 Setting
+            </h2>
 
-<td className="p-4 border border-zinc-700">
-Below 30
-</td>
+            <p>
+              RSI(21) reacts more slowly and produces fewer signals.
+            </p>
 
-<td className="p-4 border border-zinc-700">
-Oversold
-</td>
+            <p className="mt-4">
+              It is popular among swing traders and position traders because
+              it filters out much of the market noise.
+            </p>
 
-</tr>
+            <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 mt-5">
 
-<tr>
+              <h3 className="text-green-400 text-xl font-semibold mb-4">
+                Best For
+              </h3>
 
-<td className="p-4 border border-zinc-700">
-50
-</td>
+              <ul className="list-disc ml-6 space-y-2">
 
-<td className="p-4 border border-zinc-700">
-Neutral
-</td>
+                <li>Daily Charts</li>
 
-</tr>
+                <li>Weekly Charts</li>
 
-</tbody>
+                <li>Long-Term Swing Trading</li>
 
-</table>
+              </ul>
 
-</div>
+            </div>
+          </section>
 
-<p className="mt-6">
-Overbought does not necessarily mean price must fall immediately.
-Likewise, oversold does not guarantee an immediate rally.
-</p>
+          {/* 70 Level */}
 
-</section>
-<section>
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Understanding the 70 Level
+            </h2>
 
-<h2 className="text-2xl font-semibold text-white mb-3">
-How to Add RSI in MT5
-</h2>
+            <p>
+              When RSI rises above 70, the market is generally considered
+              overbought.
+            </p>
 
-<ol className="list-decimal ml-6 space-y-3">
+            <p className="mt-4">
+              This means bullish momentum has become extremely strong and
+              prices may be approaching exhaustion.
+            </p>
 
-<li>
-Press Ctrl + N to open Navigator.
-</li>
+            <p className="mt-4">
+              However, overbought does not necessarily mean price will
+              immediately reverse.
+            </p>
 
-<li>
-Indicators → Oscillators → Relative Strength Index.
-</li>
+            <p className="mt-4">
+              In strong trends, RSI can remain above 70 for extended periods.
+            </p>
+          </section>
 
-<li>
-Double click RSI.
-</li>
+          {/* 30 Level */}
 
-<li>
-Set Period = 14.
-</li>
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Understanding the 30 Level
+            </h2>
 
-<li>
-Apply to Close.
-</li>
+            <p>
+              Readings below 30 indicate oversold conditions.
+            </p>
 
-<li>
-Add Levels:
-30
-50
-70
-</li>
+            <p className="mt-4">
+              Selling pressure has become excessive and buyers may begin to
+              return.
+            </p>
 
-<li>
-Click OK.
-</li>
+            <p className="mt-4">
+              Nevertheless, oversold does not automatically mean price must
+              rise.
+            </p>
 
-</ol>
+            <p className="mt-4">
+              During powerful downtrends, RSI can stay below 30 for prolonged
+              periods.
+            </p>
+          </section>
 
-</section>
-{/* ========================================= */}
-{/* PART 6 - TRADING STRATEGIES */}
-{/* ========================================= */}
+          {/* Centerline */}
 
-<section className="mt-16">
-  <h2 className="text-3xl font-bold text-yellow-400 mb-8">
-    RSI Trading Strategies
-  </h2>
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              The Importance of the 50 Centerline
+            </h2>
 
-  <div className="space-y-12">
+            <p>
+              Professional traders often pay close attention to the 50 level.
+            </p>
 
-    {/* Range Market */}
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
-      <h3 className="text-2xl font-bold text-white mb-4">
-        1. Range Market Strategy
-      </h3>
+            <p className="mt-4">
+              The centerline represents equilibrium between buyers and
+              sellers.
+            </p>
 
-      <p className="text-zinc-300 leading-8">
-        RSI performs best when the market is moving sideways.
-      </p>
+            <div className="grid md:grid-cols-2 gap-5 mt-6">
 
-      <ul className="list-disc ml-6 mt-4 space-y-3 text-zinc-300">
-        <li>Buy when RSI falls below 30 and crosses back upward.</li>
-        <li>Sell when RSI rises above 70 and crosses back downward.</li>
-        <li>Combine with support and resistance.</li>
-      </ul>
-    </div>
+              <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-5">
 
+                <h3 className="text-green-400 text-lg font-semibold mb-3">
+                  RSI Above 50
+                </h3>
 
-    {/* Trend Trading */}
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
-      <h3 className="text-2xl font-bold text-white mb-4">
-        2. Trend Trading Strategy
-      </h3>
+                <p>
+                  Buyers dominate and bullish momentum prevails.
+                </p>
 
-      <p className="text-zinc-300 leading-8">
-        During strong trends, RSI should not be used as an overbought/oversold indicator.
-      </p>
+              </div>
 
-      <div className="mt-4">
+              <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-5">
 
-        <h4 className="text-green-400 text-xl font-semibold mb-2">
-          Bull Market
-        </h4>
+                <h3 className="text-red-400 text-lg font-semibold mb-3">
+                  RSI Below 50
+                </h3>
 
-        <ul className="list-disc ml-6 space-y-2 text-zinc-300">
-          <li>RSI usually stays between 40 and 90.</li>
-          <li>40 becomes support.</li>
-          <li>Buy pullbacks near 40-50.</li>
-        </ul>
+                <p>
+                  Sellers dominate and bearish momentum prevails.
+                </p>
 
-        <h4 className="text-red-400 text-xl font-semibold mt-6 mb-2">
-          Bear Market
-        </h4>
+              </div>
 
-        <ul className="list-disc ml-6 space-y-2 text-zinc-300">
-          <li>RSI normally ranges between 10 and 60.</li>
-          <li>60 becomes resistance.</li>
-          <li>Sell rallies near 50-60.</li>
-        </ul>
+            </div>
+          </section>
 
-      </div>
-    </div>
+          {/* Momentum */}
 
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Understanding Momentum
+            </h2>
 
-    {/* Scalping */}
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+            <p>
+              RSI is fundamentally a momentum indicator.
+            </p>
 
-      <h3 className="text-2xl font-bold text-white mb-4">
-        3. M5 Scalping Strategy
-      </h3>
+            <p className="mt-4">
+              Momentum measures how quickly prices are rising or falling.
+            </p>
 
-      <p className="text-zinc-300 leading-8">
-        For 5-minute charts, traders often reduce RSI Period from 14 to 9.
-      </p>
+            <p className="mt-4">
+              Strong momentum usually accompanies trends, while weakening
+              momentum often signals that a trend may be approaching
+              exhaustion.
+            </p>
 
-      <ul className="list-disc ml-6 mt-4 space-y-3 text-zinc-300">
-        <li>Trade during London and New York sessions.</li>
-        <li>Buy after RSI climbs back above 30.</li>
-        <li>Take profit near RSI 70.</li>
-        <li>Use tight stop-loss.</li>
-      </ul>
+            <p className="mt-4">
+              This ability to detect changes in momentum is what makes RSI one
+              of the most valuable tools in technical analysis.
+            </p>
+          </section>
+          {/* Installing RSI */}
 
-    </div>
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              How to Install RSI on MT4 and MT5
+            </h2>
 
+            <p>
+              One of the biggest advantages of the Relative Strength Index is
+              that it comes built into virtually every charting platform.
+            </p>
 
-    {/* Swing Trading */}
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+            <p className="mt-4">
+              Both MetaTrader 4 (MT4) and MetaTrader 5 (MT5) include RSI as a
+              default indicator, meaning traders do not need to download or
+              install any external files.
+            </p>
+          </section>
 
-      <h3 className="text-2xl font-bold text-white mb-4">
-        4. Daily Swing Trading Strategy
-      </h3>
+          {/* MT5 Installation */}
 
-      <p className="text-zinc-300 leading-8">
-        Daily charts filter out noise and provide higher probability signals.
-      </p>
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Installing RSI on MetaTrader 5 (MT5)
+            </h2>
 
-      <ul className="list-disc ml-6 mt-4 space-y-3 text-zinc-300">
-        <li>Keep RSI period at 14.</li>
-        <li>Add level 50.</li>
-        <li>Buy when RSI rebounds from 40-50 during an uptrend.</li>
-        <li>Exit when RSI exceeds 70 and bearish candles appear.</li>
-      </ul>
+            <div className="bg-zinc-900 border border-yellow-500 rounded-xl p-6 mt-5">
 
-    </div>
+              <h3 className="text-yellow-400 text-xl font-semibold mb-4">
+                Step-by-Step Setup
+              </h3>
 
+              <ol className="list-decimal ml-6 space-y-3">
 
-    {/* Divergence */}
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+                <li>
+                  Open MetaTrader 5.
+                </li>
 
-      <h3 className="text-2xl font-bold text-white mb-4">
-        5. Divergence Strategy
-      </h3>
+                <li>
+                  Press <strong>Ctrl + N</strong> to open the Navigator window.
+                </li>
 
-      <p className="text-zinc-300 leading-8">
-        Divergence is considered one of the strongest RSI signals.
-      </p>
+                <li>
+                  Expand the <strong>Indicators</strong> folder.
+                </li>
 
-      <div className="mt-5">
+                <li>
+                  Open the <strong>Oscillators</strong> category.
+                </li>
 
-        <h4 className="text-green-400 text-xl font-semibold">
-          Bullish Divergence
-        </h4>
+                <li>
+                  Double-click <strong>Relative Strength Index</strong>.
+                </li>
 
-        <ul className="list-disc ml-6 mt-2 space-y-2 text-zinc-300">
-          <li>Price makes Lower Low.</li>
-          <li>RSI makes Higher Low.</li>
-          <li>Indicates weakening sellers.</li>
-        </ul>
+                <li>
+                  Configure the parameters.
+                </li>
 
-        <h4 className="text-red-400 text-xl font-semibold mt-6">
-          Bearish Divergence
-        </h4>
+                <li>
+                  Press <strong>OK</strong>.
+                </li>
 
-        <ul className="list-disc ml-6 mt-2 space-y-2 text-zinc-300">
-          <li>Price makes Higher High.</li>
-          <li>RSI makes Lower High.</li>
-          <li>Indicates weakening buyers.</li>
-        </ul>
+              </ol>
 
-      </div>
+            </div>
+          </section>
 
-    </div>
+          {/* MT4 Installation */}
 
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Installing RSI on MetaTrader 4 (MT4)
+            </h2>
 
-    {/* Hidden Divergence */}
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+            <p>
+              The process on MT4 is almost identical.
+            </p>
 
-      <h3 className="text-2xl font-bold text-white mb-4">
-        6. Hidden Divergence
-      </h3>
+            <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 mt-5">
 
-      <p className="text-zinc-300 leading-8">
-        Hidden divergence signals trend continuation.
-      </p>
+              <ol className="list-decimal ml-6 space-y-3">
 
-      <ul className="list-disc ml-6 mt-4 space-y-3 text-zinc-300">
-        <li>Hidden Bullish = Higher Low + Lower RSI Low.</li>
-        <li>Hidden Bearish = Lower High + Higher RSI High.</li>
-        <li>Useful during strong trends.</li>
-      </ul>
+                <li>
+                  Open MT4.
+                </li>
 
-    </div>
+                <li>
+                  Click Insert.
+                </li>
 
+                <li>
+                  Indicators.
+                </li>
 
-    {/* Failure Swing */}
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+                <li>
+                  Oscillators.
+                </li>
 
-      <h3 className="text-2xl font-bold text-white mb-4">
-        7. Failure Swing Strategy
-      </h3>
+                <li>
+                  Relative Strength Index.
+                </li>
 
-      <p className="text-zinc-300 leading-8">
-        Failure Swing is an internal momentum reversal signal.
-      </p>
+              </ol>
 
-      <ul className="list-disc ml-6 mt-4 space-y-3 text-zinc-300">
-        <li>RSI drops below 30.</li>
-        <li>Bounces above 30.</li>
-        <li>Pulls back without breaking previous low.</li>
-        <li>Breaks previous RSI peak.</li>
-        <li>Creates strong buy signal.</li>
-      </ul>
+            </div>
 
-    </div>
+            <p className="mt-5">
+              After pressing OK, the RSI panel will appear beneath the price
+              chart.
+            </p>
+          </section>
 
+          {/* Parameters */}
 
-    {/* Multi Timeframe */}
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Recommended RSI Parameters
+            </h2>
 
-      <h3 className="text-2xl font-bold text-white mb-4">
-        8. Multi-Timeframe Analysis
-      </h3>
+            <div className="overflow-x-auto mt-5">
 
-      <p className="text-zinc-300 leading-8">
-        Professional traders always check higher timeframes first.
-      </p>
+              <table className="w-full border border-zinc-700">
 
-      <ul className="list-disc ml-6 mt-4 space-y-3 text-zinc-300">
-        <li>H4 determines trend.</li>
-        <li>M15 finds entries.</li>
-        <li>M5 fine-tunes execution.</li>
-      </ul>
+                <thead className="bg-zinc-900">
 
-    </div>
+                  <tr>
 
+                    <th className="border border-zinc-700 p-3">
+                      Parameter
+                    </th>
 
-    {/* Pros and Cons */}
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+                    <th className="border border-zinc-700 p-3">
+                      Recommended Value
+                    </th>
 
-      <h3 className="text-2xl font-bold text-white mb-6">
-        RSI Pros and Cons
-      </h3>
+                  </tr>
 
-      <div className="grid md:grid-cols-2 gap-8">
+                </thead>
 
-        <div>
-          <h4 className="text-green-400 text-xl font-bold mb-4">
-            Advantages
-          </h4>
+                <tbody>
 
-          <ul className="list-disc ml-6 space-y-3 text-zinc-300">
-            <li>Simple and beginner-friendly.</li>
-            <li>Excellent momentum indicator.</li>
-            <li>Strong divergence signals.</li>
-            <li>Works across all markets.</li>
-          </ul>
-        </div>
+                  <tr>
+                    <td className="border border-zinc-700 p-3">
+                      Period
+                    </td>
 
-        <div>
-          <h4 className="text-red-400 text-xl font-bold mb-4">
-            Disadvantages
-          </h4>
+                    <td className="border border-zinc-700 p-3">
+                      14
+                    </td>
+                  </tr>
 
-          <ul className="list-disc ml-6 space-y-3 text-zinc-300">
-            <li>Can stay overbought for long periods.</li>
-            <li>Produces false signals.</li>
-            <li>Should not be used alone.</li>
-            <li>Needs support and resistance confirmation.</li>
-          </ul>
-        </div>
+                  <tr>
+                    <td className="border border-zinc-700 p-3">
+                      Apply To
+                    </td>
 
-      </div>
+                    <td className="border border-zinc-700 p-3">
+                      Close Price
+                    </td>
+                  </tr>
 
-    </div>
+                  <tr>
+                    <td className="border border-zinc-700 p-3">
+                      Upper Level
+                    </td>
 
-  </div>
-</section>
-{/* ========================================= */}
-{/* PART 7 - VISUAL EXAMPLES */}
-{/* ========================================= */}
+                    <td className="border border-zinc-700 p-3">
+                      70
+                    </td>
+                  </tr>
 
-<section className="mt-20">
+                  <tr>
+                    <td className="border border-zinc-700 p-3">
+                      Lower Level
+                    </td>
 
-<h2 className="text-3xl font-bold text-yellow-400 mb-8">
-RSI Visual Examples
-</h2>
+                    <td className="border border-zinc-700 p-3">
+                      30
+                    </td>
+                  </tr>
 
-<div className="grid md:grid-cols-2 gap-8">
+                </tbody>
 
-<div className="bg-zinc-900 rounded-xl border border-zinc-700 p-6">
-<h3 className="text-xl font-bold text-green-400 mb-4">
-Overbought Zone
-</h3>
+              </table>
 
-<p className="text-zinc-300 leading-8">
-RSI above 70 indicates the market may be overbought. Price corrections may occur.
-</p>
-</div>
+            </div>
+          </section>
 
+          {/* Timeframes */}
 
-<div className="bg-zinc-900 rounded-xl border border-zinc-700 p-6">
-<h3 className="text-xl font-bold text-red-400 mb-4">
-Oversold Zone
-</h3>
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Which Timeframe Should You Use?
+            </h2>
 
-<p className="text-zinc-300 leading-8">
-RSI below 30 indicates the market may be oversold and buyers may return.
-</p>
-</div>
+            <p>
+              RSI works on every timeframe, from 1-minute charts all the way
+              up to monthly charts.
+            </p>
 
+            <div className="grid md:grid-cols-2 gap-5 mt-6">
 
-<div className="bg-zinc-900 rounded-xl border border-zinc-700 p-6">
-<h3 className="text-xl font-bold text-green-400 mb-4">
-Bullish Divergence
-</h3>
+              <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-5">
 
-<p className="text-zinc-300 leading-8">
-Price makes Lower Low while RSI forms Higher Low.
-Potential bullish reversal.
-</p>
-</div>
+                <h3 className="text-green-400 text-lg font-semibold mb-3">
+                  Lower Timeframes
+                </h3>
 
+                <ul className="list-disc ml-6 space-y-2">
+                  <li>M1</li>
+                  <li>M5</li>
+                  <li>M15</li>
+                </ul>
 
-<div className="bg-zinc-900 rounded-xl border border-zinc-700 p-6">
-<h3 className="text-xl font-bold text-red-400 mb-4">
-Bearish Divergence
-</h3>
+                <p className="mt-4">
+                  Suitable for scalping and day trading.
+                </p>
 
-<p className="text-zinc-300 leading-8">
-Price makes Higher High while RSI forms Lower High.
-Potential bearish reversal.
-</p>
-</div>
+              </div>
 
+              <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-5">
 
-<div className="bg-zinc-900 rounded-xl border border-zinc-700 p-6">
-<h3 className="text-xl font-bold text-yellow-400 mb-4">
-Hidden Divergence
-</h3>
+                <h3 className="text-yellow-400 text-lg font-semibold mb-3">
+                  Higher Timeframes
+                </h3>
 
-<p className="text-zinc-300 leading-8">
-Hidden divergence signals continuation of the current trend.
-</p>
-</div>
+                <ul className="list-disc ml-6 space-y-2">
+                  <li>H4</li>
+                  <li>Daily</li>
+                  <li>Weekly</li>
+                </ul>
 
+                <p className="mt-4">
+                  Suitable for swing trading and investing.
+                </p>
 
-<div className="bg-zinc-900 rounded-xl border border-zinc-700 p-6">
-<h3 className="text-xl font-bold text-yellow-400 mb-4">
-Failure Swing
-</h3>
+              </div>
 
-<p className="text-zinc-300 leading-8">
-Failure Swing confirms momentum reversal even before price reacts.
-</p>
-</div>
+            </div>
 
-</div>
+          </section>
 
-</section>
-<ArticleNavigation
-previous={{
-title: "Indicators",
-href: "/indicators",
-}}
-/>
+          {/* Scalping */}
 
-<RelatedArticles />
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              RSI Scalping Strategy (5-Minute Chart)
+            </h2>
+
+            <p>
+              Many intraday traders use RSI for short-term scalping
+              opportunities.
+            </p>
+
+            <div className="bg-zinc-900 border border-green-500 rounded-xl p-6 mt-5">
+
+              <h3 className="text-green-400 text-xl font-semibold mb-4">
+                Typical Setup
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  Timeframe: M5
+                </li>
+
+                <li>
+                  RSI Period: 9 or 11
+                </li>
+
+                <li>
+                  Oversold Level: 30
+                </li>
+
+                <li>
+                  Overbought Level: 70
+                </li>
+
+              </ul>
+
+            </div>
+
+            <p className="mt-5">
+              Traders often buy when RSI climbs back above 30 and sell when
+              RSI falls below 70.
+            </p>
+          </section>
+
+          {/* Swing Trading */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              RSI Swing Trading Strategy
+            </h2>
+
+            <p>
+              Swing traders usually prefer Daily charts and H4 charts.
+            </p>
+
+            <div className="bg-zinc-900 border border-yellow-500 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 text-xl font-semibold mb-4">
+                Recommended Setup
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  Timeframe: Daily
+                </li>
+
+                <li>
+                  RSI Period: 14
+                </li>
+
+                <li>
+                  Additional Level: 50
+                </li>
+
+              </ul>
+
+            </div>
+
+            <p className="mt-5">
+              In strong uptrends, traders often buy pullbacks when RSI drops
+              toward the 40-50 area and then turns upward.
+            </p>
+          </section>
+
+          {/* Day Trading */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              RSI Day Trading Strategy
+            </h2>
+
+            <p>
+              Day traders frequently combine RSI with support and resistance
+              levels.
+            </p>
+
+            <p className="mt-4">
+              The best signals occur when multiple factors align together.
+            </p>
+
+            <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 text-lg font-semibold mb-4">
+                High Probability Setup
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  Support or resistance zone.
+                </li>
+
+                <li>
+                  RSI overbought or oversold.
+                </li>
+
+                <li>
+                  Candlestick confirmation.
+                </li>
+
+                <li>
+                  Trend alignment.
+                </li>
+
+              </ul>
+
+            </div>
+
+          </section>
+
+          {/* Position Trading */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Position Trading with RSI
+            </h2>
+
+            <p>
+              Long-term investors often use Weekly charts and Daily charts.
+            </p>
+
+            <p className="mt-4">
+              Rather than focusing on overbought and oversold signals, they
+              monitor the 50 centerline and long-term divergence patterns.
+            </p>
+
+            <p className="mt-4">
+              This approach filters out short-term market noise and focuses
+              on major trends.
+            </p>
+
+          </section>
+          {/* ===================================================== */}
+          {/* Divergence */}
+          {/* ===================================================== */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              RSI Divergence – The Most Powerful Signal
+            </h2>
+
+            <p>
+              Among all RSI applications, divergence is considered one of
+              the most powerful and reliable techniques used by professional
+              traders.
+            </p>
+
+            <p className="mt-4">
+              Divergence occurs when price and momentum no longer move in
+              the same direction. This imbalance often signals that a trend
+              is weakening and may soon reverse.
+            </p>
+
+            <p className="mt-4">
+              Divergence is often referred to as a leading signal because it
+              can provide early warning before the market changes direction.
+            </p>
+          </section>
+
+          {/* Regular Bullish Divergence */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-green-400 mb-3">
+              Regular Bullish Divergence
+            </h2>
+
+            <div className="bg-zinc-900 border border-green-500 rounded-xl p-6">
+
+              <p>
+                Price makes a Lower Low.
+              </p>
+
+              <p className="mt-3">
+                RSI makes a Higher Low.
+              </p>
+
+              <p className="mt-5">
+                This indicates that sellers are losing momentum and that a
+                bullish reversal may be approaching.
+              </p>
+
+            </div>
+
+            <div className="bg-black border border-zinc-700 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 font-semibold mb-4">
+                Example
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-2">
+
+                <li>
+                  Price low #1 = $4,400
+                </li>
+
+                <li>
+                  Price low #2 = $4,350
+                </li>
+
+                <li>
+                  RSI low #1 = 22
+                </li>
+
+                <li>
+                  RSI low #2 = 32
+                </li>
+
+              </ul>
+
+            </div>
+
+            <p className="mt-5">
+              Although price fell further, momentum weakened. This often
+              signals the beginning of a bullish reversal.
+            </p>
+          </section>
+
+          {/* Regular Bearish Divergence */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-red-400 mb-3">
+              Regular Bearish Divergence
+            </h2>
+
+            <div className="bg-zinc-900 border border-red-500 rounded-xl p-6">
+
+              <p>
+                Price makes a Higher High.
+              </p>
+
+              <p className="mt-3">
+                RSI makes a Lower High.
+              </p>
+
+              <p className="mt-5">
+                This indicates that buyers are losing strength and the
+                uptrend may soon reverse.
+              </p>
+
+            </div>
+
+            <div className="bg-black border border-zinc-700 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 font-semibold mb-4">
+                Example
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-2">
+
+                <li>
+                  Price high #1 = $4,500
+                </li>
+
+                <li>
+                  Price high #2 = $4,550
+                </li>
+
+                <li>
+                  RSI high #1 = 82
+                </li>
+
+                <li>
+                  RSI high #2 = 74
+                </li>
+
+              </ul>
+
+            </div>
+
+            <p className="mt-5">
+              The market continues making new highs, but momentum no longer
+              supports the move.
+            </p>
+
+          </section>
+
+          {/* Hidden Divergence */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Hidden Divergence – Trend Continuation Signals
+            </h2>
+
+            <p>
+              Hidden divergence is used by professional trend traders to
+              identify continuation opportunities rather than reversals.
+            </p>
+          </section>
+
+          {/* Hidden Bullish */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-green-400 mb-3">
+              Hidden Bullish Divergence
+            </h2>
+
+            <div className="bg-zinc-900 border border-green-500 rounded-xl p-6">
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  Price forms a Higher Low.
+                </li>
+
+                <li>
+                  RSI forms a Lower Low.
+                </li>
+
+              </ul>
+
+            </div>
+
+            <p className="mt-5">
+              This suggests that the uptrend remains healthy and buyers may
+              soon regain control.
+            </p>
+          </section>
+
+          {/* Hidden Bearish */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-red-400 mb-3">
+              Hidden Bearish Divergence
+            </h2>
+
+            <div className="bg-zinc-900 border border-red-500 rounded-xl p-6">
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  Price forms a Lower High.
+                </li>
+
+                <li>
+                  RSI forms a Higher High.
+                </li>
+
+              </ul>
+
+            </div>
+
+            <p className="mt-5">
+              This usually signals that the downtrend is preparing for
+              another continuation move lower.
+            </p>
+
+          </section>
+
+          {/* Failure Swing */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              RSI Failure Swing
+            </h2>
+
+            <p>
+              Failure Swings were introduced by J. Welles Wilder himself
+              and are considered one of the most overlooked RSI patterns.
+            </p>
+
+            <div className="bg-zinc-900 border border-yellow-500 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 font-semibold mb-4">
+                Bullish Failure Swing
+              </h3>
+
+              <ol className="list-decimal ml-6 space-y-3">
+
+                <li>
+                  RSI drops below 30.
+                </li>
+
+                <li>
+                  RSI climbs back above 30.
+                </li>
+
+                <li>
+                  RSI pulls back but stays above 30.
+                </li>
+
+                <li>
+                  RSI breaks its previous peak.
+                </li>
+
+              </ol>
+
+            </div>
+
+            <p className="mt-5">
+              This pattern often signals the beginning of a new uptrend.
+            </p>
+
+          </section>
+
+          {/* Bull Market Range */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-green-400 mb-3">
+              Bull Market RSI Range
+            </h2>
+
+            <p>
+              Most beginners assume that RSI 70 means "sell".
+            </p>
+
+            <p className="mt-4">
+              However, Andrew Cardwell discovered that in strong bull
+              markets, RSI behaves differently.
+            </p>
+
+            <div className="bg-zinc-900 border border-green-500 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 mb-4 font-semibold">
+                Bull Market Characteristics
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  RSI support shifts toward 40.
+                </li>
+
+                <li>
+                  RSI resistance moves toward 80-90.
+                </li>
+
+                <li>
+                  Pullbacks toward 40 become buying opportunities.
+                </li>
+
+              </ul>
+
+            </div>
+
+          </section>
+
+          {/* Bear Market Range */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-red-400 mb-3">
+              Bear Market RSI Range
+            </h2>
+
+            <div className="bg-zinc-900 border border-red-500 rounded-xl p-6">
+
+              <h3 className="text-yellow-400 mb-4 font-semibold">
+                Bear Market Characteristics
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  RSI resistance shifts toward 60.
+                </li>
+
+                <li>
+                  RSI support shifts toward 10-20.
+                </li>
+
+                <li>
+                  Rallies toward 60 become selling opportunities.
+                </li>
+
+              </ul>
+
+            </div>
+
+          </section>
+
+          {/* Andrew Cardwell */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Andrew Cardwell's RSI Revolution
+            </h2>
+
+            <p>
+              Andrew Cardwell, one of the most famous students of J.
+              Welles Wilder, expanded RSI theory dramatically.
+            </p>
+
+            <p className="mt-4">
+              Instead of viewing RSI as an overbought and oversold
+              indicator, Cardwell demonstrated that RSI behaves
+              differently depending on whether the market is trending
+              upward or downward.
+            </p>
+
+            <p className="mt-4">
+              His research transformed RSI from a simple oscillator into
+              a trend-analysis tool used by many institutional traders.
+            </p>
+
+          </section>
+
+          {/* Multi Timeframe */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Multi-Timeframe RSI Analysis
+            </h2>
+
+            <p>
+              Professional traders rarely rely on one timeframe.
+            </p>
+
+            <div className="bg-zinc-900 border border-yellow-500 rounded-xl p-6 mt-5">
+
+              <h3 className="text-yellow-400 mb-4 font-semibold">
+                Example
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  H4 chart determines the overall trend.
+                </li>
+
+                <li>
+                  M15 chart identifies entry points.
+                </li>
+
+                <li>
+                  M5 chart fine-tunes execution.
+                </li>
+
+              </ul>
+
+            </div>
+
+            <p className="mt-5">
+              Multi-timeframe confirmation significantly increases the
+              probability of successful trades.
+            </p>
+
+          </section>
+
+          {/* Institutional Usage */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              How Professional Traders Use RSI
+            </h2>
+
+            <p>
+              Banks and hedge funds rarely trade RSI alone.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-5 mt-6">
+
+              <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-5">
+
+                <h3 className="text-green-400 text-lg font-semibold mb-3">
+                  Combined With
+                </h3>
+
+                <ul className="list-disc ml-6 space-y-2">
+
+                  <li>Support & Resistance</li>
+
+                  <li>Trendlines</li>
+
+                  <li>Moving Averages</li>
+
+                  <li>Fibonacci Retracement</li>
+
+                  <li>Candlestick Patterns</li>
+
+                  <li>Volume Analysis</li>
+
+                </ul>
+
+              </div>
+
+              <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-5">
+
+                <h3 className="text-yellow-400 text-lg font-semibold mb-3">
+                  They Avoid
+                </h3>
+
+                <ul className="list-disc ml-6 space-y-2">
+
+                  <li>Blindly selling above 70.</li>
+
+                  <li>Blindly buying below 30.</li>
+
+                  <li>Using RSI alone.</li>
+
+                  <li>Ignoring trend direction.</li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </section>
+          {/* Advantages */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Advantages of RSI
+            </h2>
+
+            <p>
+              The Relative Strength Index has remained one of the most
+              popular technical indicators for nearly half a century because
+              of its simplicity and versatility.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-5 mt-6">
+
+              <div className="bg-zinc-900 border border-green-500 rounded-xl p-5">
+
+                <h3 className="text-green-400 text-lg font-semibold mb-3">
+                  Strengths
+                </h3>
+
+                <ul className="list-disc ml-6 space-y-3">
+
+                  <li>Easy to understand.</li>
+
+                  <li>Suitable for beginners.</li>
+
+                  <li>Works on all markets.</li>
+
+                  <li>Works on all timeframes.</li>
+
+                  <li>Excellent for spotting momentum shifts.</li>
+
+                  <li>Provides divergence signals.</li>
+
+                  <li>Useful for trend analysis.</li>
+
+                  <li>Built into most trading platforms.</li>
+
+                </ul>
+
+              </div>
+
+            </div>
+          </section>
+
+          {/* Disadvantages */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Limitations and Disadvantages
+            </h2>
+
+            <p>
+              Despite its popularity, RSI is not perfect.
+            </p>
+
+            <div className="bg-zinc-900 border border-red-500 rounded-xl p-6 mt-5">
+
+              <h3 className="text-red-400 text-lg font-semibold mb-4">
+                Weaknesses
+              </h3>
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  Generates false signals during strong trends.
+                </li>
+
+                <li>
+                  Can remain overbought for long periods.
+                </li>
+
+                <li>
+                  Can remain oversold for long periods.
+                </li>
+
+                <li>
+                  Works poorly when used alone.
+                </li>
+
+                <li>
+                  Should always be combined with price action.
+                </li>
+
+              </ul>
+
+            </div>
+
+          </section>
+
+          {/* Mistakes */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Common Mistakes Made by Beginners
+            </h2>
+
+            <div className="bg-zinc-900 border border-yellow-500 rounded-xl p-6">
+
+              <ol className="list-decimal ml-6 space-y-4">
+
+                <li>
+                  Buying simply because RSI falls below 30.
+                </li>
+
+                <li>
+                  Selling simply because RSI rises above 70.
+                </li>
+
+                <li>
+                  Ignoring trend direction.
+                </li>
+
+                <li>
+                  Ignoring support and resistance.
+                </li>
+
+                <li>
+                  Trading RSI without confirmation.
+                </li>
+
+                <li>
+                  Using only one timeframe.
+                </li>
+
+              </ol>
+
+            </div>
+
+          </section>
+
+          {/* Comparison */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              RSI vs Other Indicators
+            </h2>
+
+            <div className="overflow-x-auto mt-5">
+
+              <table className="w-full border border-zinc-700">
+
+                <thead className="bg-zinc-900">
+
+                  <tr>
+
+                    <th className="border border-zinc-700 p-3">
+                      Indicator
+                    </th>
+
+                    <th className="border border-zinc-700 p-3">
+                      Strength
+                    </th>
+
+                  </tr>
+
+                </thead>
+
+                <tbody>
+
+                  <tr>
+                    <td className="border border-zinc-700 p-3">
+                      RSI
+                    </td>
+                    <td className="border border-zinc-700 p-3">
+                      Momentum analysis
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="border border-zinc-700 p-3">
+                      MACD
+                    </td>
+                    <td className="border border-zinc-700 p-3">
+                      Trend confirmation
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="border border-zinc-700 p-3">
+                      Stochastic
+                    </td>
+                    <td className="border border-zinc-700 p-3">
+                      Short-term overbought/oversold
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="border border-zinc-700 p-3">
+                      Moving Average
+                    </td>
+                    <td className="border border-zinc-700 p-3">
+                      Trend direction
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="border border-zinc-700 p-3">
+                      CCI
+                    </td>
+                    <td className="border border-zinc-700 p-3">
+                      Commodity cycles
+                    </td>
+                  </tr>
+
+                </tbody>
+
+              </table>
+
+            </div>
+
+          </section>
+
+          {/* Best Combination */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Best Indicator Combinations with RSI
+            </h2>
+
+            <p>
+              Professional traders rarely use RSI alone.
+            </p>
+
+            <div className="bg-zinc-900 border border-yellow-500 rounded-xl p-6 mt-5">
+
+              <ul className="list-disc ml-6 space-y-3">
+
+                <li>
+                  RSI + Support and Resistance
+                </li>
+
+                <li>
+                  RSI + Moving Average
+                </li>
+
+                <li>
+                  RSI + MACD
+                </li>
+
+                <li>
+                  RSI + Fibonacci Retracement
+                </li>
+
+                <li>
+                  RSI + Candlestick Patterns
+                </li>
+
+                <li>
+                  RSI + Trendlines
+                </li>
+
+              </ul>
+
+            </div>
+
+          </section>
+
+          {/* Legacy */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              The Legacy of RSI
+            </h2>
+
+            <p>
+              Since its introduction in 1978, the Relative Strength Index
+              has become one of the most influential indicators in the
+              history of technical analysis.
+            </p>
+
+            <p className="mt-4">
+              Created by J. Welles Wilder Jr., RSI transformed how traders
+              measure momentum and identify overextended markets.
+            </p>
+
+            <p className="mt-4">
+              Nearly fifty years later, RSI remains one of the most widely
+              used indicators among retail traders, hedge funds,
+              institutional investors and quantitative trading systems.
+            </p>
+
+            <p className="mt-4">
+              Its longevity is a testament to the brilliance of Wilder's
+              work and its ability to adapt across different market
+              environments.
+            </p>
+
+          </section>
+
+          {/* Famous Quote */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              J. Welles Wilder's Contribution
+            </h2>
+
+            <div className="bg-zinc-900 border border-yellow-500 rounded-xl p-6">
+
+              <p className="italic text-zinc-300">
+                "Markets are governed by human emotions, and momentum often
+                reveals what price alone cannot."
+              </p>
+
+            </div>
+
+            <p className="mt-5">
+              Beyond RSI, Wilder also created:
+            </p>
+
+            <ul className="list-disc ml-6 mt-4 space-y-2">
+
+              <li>Average True Range (ATR)</li>
+
+              <li>Directional Movement Index (DMI)</li>
+
+              <li>Average Directional Index (ADX)</li>
+
+              <li>Parabolic SAR</li>
+
+            </ul>
+
+          </section>
+
+          {/* Conclusion */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Final Conclusion
+            </h2>
+
+            <p>
+              The Relative Strength Index is far more than a simple
+              overbought and oversold indicator.
+            </p>
+
+            <p className="mt-4">
+              When properly understood, RSI becomes a powerful tool for
+              identifying momentum, divergence, trend continuation and
+              potential reversals.
+            </p>
+
+            <p className="mt-4">
+              However, no indicator is perfect. Successful traders combine
+              RSI with price action, support and resistance, candlestick
+              analysis and proper risk management.
+            </p>
+
+            <p className="mt-4">
+              Nearly fifty years after its creation, RSI remains one of the
+              cornerstones of technical analysis and continues to serve as
+              an essential tool for traders around the world.
+            </p>
+
+          </section>
+
+          {/* Risk Disclaimer */}
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">
+              Risk Disclaimer
+            </h2>
+
+            <p>
+              This article is provided for educational purposes only and
+              does not constitute financial advice. Trading leveraged
+              products carries substantial risk and may not be suitable for
+              every investor. Always conduct your own research and practice
+              proper risk management before entering any trade.
+            </p>
+
+          </section>
+
+          <ArticleNavigation />
+
+          <RelatedArticles />
 
         </div>
       </div>
