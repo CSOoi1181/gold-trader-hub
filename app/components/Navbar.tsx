@@ -33,6 +33,13 @@ export default function Navbar() {
             Analysis
           </Link>
 
+          <Link
+            href="/indicators"
+            className="hover:text-yellow-400"
+          >
+            Indicators
+          </Link>
+
         </div>
 
       </div>
