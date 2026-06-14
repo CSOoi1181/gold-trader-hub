@@ -2033,7 +2033,7 @@ management, market structure and multiple confirmations.
 
 <section>
 
-<h2 className="text-2xl font-semibold text-red-400 mb-3">
+<h2 className="text-2xl font-semibold text-white-400 mb-3">
 Risk Disclaimer
 </h2>
 
