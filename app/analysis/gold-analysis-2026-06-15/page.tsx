@@ -820,8 +820,8 @@ export default function GoldAnalysisArticle() {
 
           <ArticleNavigation
             previous={{
-              title: "Gold Analysis Today – XAU/USD Slides Toward $4,050 as CPI Shock, Rising Treasury Yields and US-Iran Tensions Pressure Gold Prices | 11 June 2026",
-              href: "/analysis/gold-analysis-2026-06-11",
+              title: "Gold Analysis Today – XAU/USD Holds Near $4,200 as Fed Rate Hike Fears, Hot Inflation Data and US-Iran Peace Hopes Weigh on Gold Prices | 12 June 2026",
+              href: "/analysis/gold-analysis-2026-06-12",
             }}
           />
 

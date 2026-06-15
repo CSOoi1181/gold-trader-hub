@@ -28,7 +28,7 @@ export default function FeaturedAnalysis() {
       </p>
 
       <Link
-        href="/analysis/gold-analysis-2026-06-12"
+        href="/analysis/gold-analysis-2026-06-15"
         className="inline-block bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg transition"
       >
         Read Full Analysis →
