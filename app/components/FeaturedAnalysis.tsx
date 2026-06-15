@@ -13,18 +13,15 @@ export default function FeaturedAnalysis() {
       </div>
 
       <h3 className="text-xl font-semibold text-white mb-2">
-        Gold Analysis Today – XAU/USD Holds Near $4,200 as Fed Rate Hike Fears, Hot Inflation Data and US-Iran Peace Hopes Weigh on Gold Prices | 12 June 2026
+        Gold Analysis Today – XAU/USD Rebounds Above $4,280 as Fed, BOJ and BOE Decisions Take Center Stage | 15 June 2026
       </h3>
 
       <p className="text-sm text-zinc-500 mb-4">
-        Published: 12 June 2026
+        Published: 15 June 2026
       </p>
 
       <p className="text-zinc-300 leading-8 mb-6">
-        Gold prices remain under pressure on Friday as investors continue adjusting positions after a volatile week dominated by inflation concerns, shifting Federal Reserve expectations and changing geopolitical developments.
-        Spot Gold (XAU/USD) is trading near the $4,200 region after recovering from a six-month low earlier this week. However, the recovery remains fragile, and the precious metal is still heading toward one of its largest weekly declines in recent months.
-        The primary challenge for gold is that investors are currently prioritizing interest-rate expectations over traditional safe-haven demand.
-        While geopolitical uncertainty remains elevated, stronger inflation readings have shifted market focus back toward monetary policy. Investors increasingly believe the Federal Reserve may need to maintain restrictive conditions for longer than previously expected.
+        Gold prices started the new trading week attempting to stabilize after suffering one of the most volatile periods of 2026.Spot Gold (XAU/USD) is trading around the $4,280 area after rebounding from last week's six-month low near $4,080. The recovery has improved short-term sentiment, but investors remain cautious ahead of what could become one of the most important macroeconomic weeks of the year.Unlike previous periods where geopolitical uncertainty dominated market direction, today's gold market is being influenced by multiple competing narratives.
       </p>
 
       <Link

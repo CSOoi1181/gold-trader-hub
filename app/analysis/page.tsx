@@ -9,6 +9,13 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today – XAU/USD Rebounds Above $4,280 as Fed, BOJ and BOE Decisions Take Center Stage | 15 June 2026",
+  date: "15 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-15",
+  summary:
+    "XAU/USD rebounds above $4,280 as traders prepare for key central bank decisions from the Federal Reserve, Bank of Japan, Reserve Bank of Australia and Bank of England amid shifting inflation and geopolitical expectations.",
+  },
+  {
   title: "Gold Analysis Today – XAU/USD Holds Near $4,200 as Fed Rate Hike Fears, Hot Inflation Data and US-Iran Peace Hopes Weigh on Gold Prices | 12 June 2026",
   date: "12 June 2026",
   slug: "/analysis/gold-analysis-2026-06-12",

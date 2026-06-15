@@ -9,45 +9,42 @@ export default function MarketSummary() {
       <div className="space-y-4 text-zinc-300 leading-7">
 
         <p>
-          Gold (XAU/USD) is trading in a fragile consolidation phase near the
-          <span className="text-yellow-400 font-semibold"> $4,200</span> region on June 12, 2026,
-          after experiencing one of its sharpest multi-day corrections of the year. The broader market tone remains
-          cautious as investors continue digesting a complex mix of macroeconomic pressure, shifting Federal Reserve expectations,
-          and evolving geopolitical sentiment.
+          Gold (XAU/USD) is trading around the
+          <span className="text-yellow-400 font-semibold"> $4,280</span> region on June 15, 2026,
+          after rebounding from last week's sharp sell-off that pushed prices toward a six-month low near $4,080.
+          The recovery reflects a short-term stabilization phase, although the broader market remains cautious ahead of key central bank decisions.
         </p>
 
         <p>
-          While gold briefly attempted to stabilize after recent losses, the recovery remains technically weak and sentiment-driven.
-          The dominant market narrative is no longer focused on geopolitical risk alone — instead, traders are now prioritizing
-          inflation dynamics, interest rate expectations, and real yield movements, which continue to exert stronger influence
-          over precious metals pricing.
+          Despite the rebound, gold’s upside remains limited as investors continue balancing conflicting macro forces.
+          Expectations of “higher-for-longer” interest rates are still supporting the U.S. Dollar and keeping Treasury yields elevated,
+          while shifting geopolitical conditions and energy price declines are reshaping inflation expectations.
         </p>
 
         <p>
-          As a result, gold remains under pressure despite periodic safe-haven inflows, highlighting a clear divergence between
-          macroeconomic fundamentals and geopolitical risk pricing.
+          As a result, gold is caught between short-term technical recovery and medium-term macroeconomic pressure,
+          leading to increased volatility even in the absence of major immediate headlines.
         </p>
 
         <div className="border-t border-zinc-800 pt-4">
 
           <h3 className="font-semibold text-white mb-2">
-            Market Structure Shift – Why Sentiment Changed
+            Market Structure Shift – Why Sentiment Is Stabilizing
           </h3>
 
           <p>
-            The recent weakness in gold reflects a broader structural shift in global financial markets. Investors are increasingly
-            treating gold less as a pure crisis hedge and more as an interest-rate sensitive asset.
+            The recent rebound in gold reflects short-term oversold conditions following last week’s aggressive sell-off.
+            As prices approached the $4,080 lows, technical buyers and short-covering activity helped stabilize the market.
           </p>
 
           <p className="mt-3">
-            Stronger-than-expected U.S. inflation data, particularly from producer-level pricing, has reinforced the idea that
-            inflation remains persistent and sticky. This has forced markets to reassess the timing and magnitude of potential
-            Federal Reserve easing.
+            At the same time, lower oil prices following progress in the U.S.–Iran peace framework have softened inflation expectations,
+            slightly improving the outlook for future monetary easing.
           </p>
 
           <p className="mt-3">
-            The consequence is a renewed upward pressure on Treasury yields, which directly increases the opportunity cost of holding
-            gold — an asset that does not provide yield or cash flow.
+            However, sentiment is still largely driven by macroeconomic positioning rather than long-term structural demand,
+            meaning gold remains highly sensitive to central bank expectations and U.S. economic data.
           </p>
 
         </div>
@@ -55,23 +52,22 @@ export default function MarketSummary() {
         <div className="border-t border-zinc-800 pt-4">
 
           <h3 className="font-semibold text-white mb-2">
-            Why Gold Is Under Pressure Today
+            Why Gold Is Rebounding Today
           </h3>
 
           <p>
-            The primary driver behind today’s gold weakness is the continuation of the “higher-for-longer” interest rate narrative.
-            Markets are increasingly convinced that the Federal Reserve will maintain restrictive policy conditions well into the
-            next cycle.
+            The primary driver behind today’s recovery is technical correction and short-covering after last week’s sharp decline.
+            Traders who were positioned short are taking profits as gold stabilizes near key support zones.
           </p>
 
           <p className="mt-3">
-            This environment supports both the U.S. Dollar and Treasury yields, while simultaneously reducing demand for
-            non-yielding assets such as gold.
+            Additionally, expectations surrounding a heavy central bank week — including the Federal Reserve, BOJ, RBA, and BOE —
+            are encouraging position adjustment and reduced aggressive selling.
           </p>
 
           <p className="mt-3">
-            Even though geopolitical uncertainty remains present, it is currently being overshadowed by macroeconomic forces,
-            particularly inflation expectations and real yield dynamics.
+            Despite this rebound, the move is still considered corrective rather than a confirmed bullish reversal,
+            with macroeconomic pressure from interest rates and the U.S. Dollar still dominant.
           </p>
 
         </div>
@@ -79,22 +75,20 @@ export default function MarketSummary() {
         <div className="border-t border-zinc-800 pt-4">
 
           <h3 className="font-semibold text-white mb-2">
-            Geopolitical Narrative – Why Safe Haven Demand Is Limited
+            Geopolitical Narrative – Reduced Safe Haven Demand
           </h3>
 
           <p>
-            Developments surrounding potential diplomatic progress between the United States and Iran have significantly altered
-            the geopolitical risk premium embedded in gold prices.
+            Developments in the U.S.–Iran peace framework have reduced geopolitical risk premiums across global markets.
+            This has weakened safe-haven demand for gold compared to earlier in the year.
           </p>
 
           <p className="mt-3">
-            Although tensions have not fully resolved, the market is increasingly pricing in a scenario of de-escalation.
-            This expectation has reduced demand for defensive positioning across precious metals.
+            Lower crude oil prices have also contributed to easing inflation expectations, further influencing gold’s medium-term outlook.
           </p>
 
           <p className="mt-3">
-            In previous cycles, such geopolitical uncertainty would typically trigger strong and sustained gold rallies.
-            However, in the current environment, macroeconomic forces are dominating sentiment, limiting gold’s reaction to headlines.
+            However, geopolitical risks have not fully disappeared, meaning sudden shifts in sentiment could still trigger volatility spikes.
           </p>
 
         </div>
@@ -106,13 +100,13 @@ export default function MarketSummary() {
           </h3>
 
           <ul className="space-y-2">
-            <li>📊 Persistent inflation pressure from U.S. PPI data</li>
-            <li>📈 Elevated Treasury yields increasing real yield attractiveness</li>
-            <li>💵 Strong and stable U.S. Dollar Index (DXY)</li>
-            <li>🏦 Fed “higher-for-longer” policy expectations</li>
-            <li>🛢️ Reduced geopolitical risk premium from U.S.-Iran diplomacy hopes</li>
-            <li>🌍 Global inflation uncertainty and uneven economic recovery</li>
-            <li>🏛️ Structural long-term support from central bank gold accumulation</li>
+            <li>📊 Upcoming Federal Reserve policy decision and forward guidance</li>
+            <li>🏦 Bank of Japan, RBA, and BOE interest rate announcements</li>
+            <li>💵 Persistent U.S. Dollar strength limiting upside potential</li>
+            <li>📉 Elevated Treasury yields supporting real yield pressure</li>
+            <li>🛢️ Lower oil prices reducing inflation expectations</li>
+            <li>🌍 U.S.–Iran peace framework easing geopolitical risk premiums</li>
+            <li>📈 Technical recovery after oversold conditions near $4,080</li>
           </ul>
 
         </div>
@@ -120,28 +114,28 @@ export default function MarketSummary() {
         <div className="border-t border-zinc-800 pt-4">
 
           <h3 className="font-semibold text-white mb-2">
-            Technical Outlook – Bearish Structure Intact
+            Technical Outlook – Key Range in Focus
           </h3>
 
           <p>
-            From a technical perspective, XAU/USD remains locked in a corrective bearish structure following the breakdown
-            of key support zones earlier in the week. The loss of medium-term support has shifted momentum firmly in favor of sellers.
+            From a technical perspective, gold is currently consolidating after rebounding from last week’s lows,
+            with price action centered around the $4,245–$4,250 resistance zone.
           </p>
 
           <p className="mt-3">
-            While short-term oversold conditions may lead to temporary rebounds, there is currently no confirmed structural reversal.
-            Any recovery attempts are likely to face strong resistance from previous breakdown zones.
+            A sustained breakout above this level could open the door for further upside momentum,
+            while rejection may lead to another retest of support zones.
           </p>
 
           <p className="mt-3">
-            Immediate support remains at <span className="text-green-400 font-semibold">$4,100</span>, followed by
-            <span className="text-green-400 font-semibold"> $4,050</span> and the critical psychological level at
-            <span className="text-green-400 font-semibold"> $4,000</span>.
+            Immediate support remains at <span className="text-green-400 font-semibold">$4,218</span>, followed by
+            <span className="text-green-400 font-semibold"> $4,170</span> and deeper support near
+            <span className="text-green-400 font-semibold"> $4,060</span>.
           </p>
 
           <p className="mt-3">
-            On the upside, resistance is seen at <span className="text-red-400 font-semibold">$4,222</span>,
-            then <span className="text-red-400 font-semibold">$4,300</span>, with a broader recovery ceiling near
+            On the upside, resistance is seen at <span className="text-red-400 font-semibold">$4,250</span>,
+            then <span className="text-red-400 font-semibold">$4,313</span>, with a broader upside target near
             <span className="text-red-400 font-semibold">$4,500</span>.
           </p>
 
@@ -154,13 +148,13 @@ export default function MarketSummary() {
           </h3>
 
           <p>
-            <span className="text-yellow-400 font-semibold">Short-term sentiment remains bearish</span>,
-            driven by elevated real yields, persistent inflation expectations, and continued U.S. Dollar strength.
+            <span className="text-yellow-400 font-semibold">Short-term sentiment is cautiously neutral</span>,
+            supported by technical rebound conditions but constrained by strong macroeconomic headwinds.
           </p>
 
           <p className="mt-3">
-            However, long-term sentiment remains structurally supportive. Central banks continue increasing gold reserves,
-            while global debt expansion and inflation uncertainty provide a long-term hedge narrative for the metal.
+            Long-term sentiment remains constructive, driven by central bank gold accumulation, inflation uncertainty,
+            and global diversification away from fiat currencies.
           </p>
 
         </div>
@@ -172,18 +166,17 @@ export default function MarketSummary() {
           </h3>
 
           <p>
-            The short-term outlook remains fragile and highly data-dependent. If inflation remains elevated and yields stay high,
-            gold may continue to consolidate or drift lower toward the <span className="text-green-400 font-semibold">$4,000</span> support zone.
+            The short-term outlook remains range-bound and event-driven, with gold likely to react strongly to central bank decisions this week.
+            Sustained strength above <span className="text-green-400 font-semibold">$4,250</span> would improve bullish momentum.
           </p>
 
           <p className="mt-3">
-            Conversely, any meaningful decline in Treasury yields or a weakening U.S. Dollar could trigger a relief rally
-            toward <span className="text-red-400 font-semibold">$4,100–$4,300</span>.
+            Conversely, a strong U.S. Dollar or hawkish Federal Reserve guidance could pressure prices back toward
+            the <span className="text-green-400 font-semibold">$4,170–$4,060</span> support region.
           </p>
 
           <p className="mt-3">
-            For now, the market remains in a transition phase where macroeconomic forces dominate short-term price action,
-            while geopolitical risk plays a secondary role.
+            Overall, the market remains in a transitional phase where macro policy expectations dominate price direction.
           </p>
 
         </div>
@@ -195,12 +188,12 @@ export default function MarketSummary() {
           </h3>
 
           <ul className="space-y-2">
-            <li>📌 U.S. inflation trends (CPI & PPI)</li>
-            <li>📌 Federal Reserve policy statements and rate expectations</li>
-            <li>📌 U.S. Treasury yields (real yield direction)</li>
-            <li>📌 U.S. Dollar Index (DXY) momentum</li>
-            <li>📌 U.S.-Iran geopolitical developments</li>
-            <li>📌 Global risk sentiment and equity market rotation</li>
+            <li>📌 Federal Reserve interest rate decision and press conference</li>
+            <li>📌 Bank of Japan, RBA, and BOE policy updates</li>
+            <li>📌 U.S. Dollar Index (DXY) movement</li>
+            <li>📌 Treasury yields and real yield direction</li>
+            <li>📌 Inflation data and market expectations</li>
+            <li>📌 Geopolitical developments and risk sentiment</li>
           </ul>
 
         </div>
@@ -214,39 +207,37 @@ export default function MarketSummary() {
           <div className="space-y-4">
 
             <div>
-              <h4 className="text-white font-medium">Why is gold under pressure despite uncertainty?</h4>
+              <h4 className="text-white font-medium">Why is gold rebounding today?</h4>
               <p>
-                Because macroeconomic forces — especially inflation expectations and rising yields — are currently stronger
-                drivers than geopolitical safe-haven demand.
+                The rebound is mainly driven by technical correction, short-covering, and stabilization after last week’s sharp decline.
               </p>
             </div>
 
             <div>
-              <h4 className="text-white font-medium">Why do higher interest rates hurt gold?</h4>
+              <h4 className="text-white font-medium">Is this a bullish reversal?</h4>
               <p>
-                Higher rates increase Treasury yields, raising the opportunity cost of holding non-yielding assets like gold.
+                Not yet. The move is still considered a corrective recovery within a broader macro-driven range.
               </p>
             </div>
 
             <div>
-              <h4 className="text-white font-medium">Is $4,000 still important?</h4>
+              <h4 className="text-white font-medium">What is the key resistance level?</h4>
               <p>
-                Yes. The $4,000 level remains the key psychological support zone and a major liquidity area for the market.
+                The main resistance zone is between $4,245 and $4,250, which is currently the key battleground for traders.
               </p>
             </div>
 
             <div>
-              <h4 className="text-white font-medium">Can gold recover soon?</h4>
+              <h4 className="text-white font-medium">Can gold move higher this week?</h4>
               <p>
-                A recovery is possible, but it requires either lower yields, weaker inflation data, or a softer U.S. Dollar.
+                Yes, but it depends heavily on central bank outcomes, especially the Federal Reserve’s policy tone.
               </p>
             </div>
 
             <div>
-              <h4 className="text-white font-medium">Is gold still bullish long-term?</h4>
+              <h4 className="text-white font-medium">What is the main risk for gold?</h4>
               <p>
-                Yes. Structural demand from central banks, global debt expansion, and inflation risks continue supporting
-                the long-term bullish narrative.
+                A stronger U.S. Dollar or hawkish Fed guidance could quickly reverse the recent recovery.
               </p>
             </div>
 
