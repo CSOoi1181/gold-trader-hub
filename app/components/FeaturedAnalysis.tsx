@@ -21,7 +21,10 @@ export default function FeaturedAnalysis() {
       </p>
 
       <p className="text-zinc-300 leading-8 mb-6">
-        Gold prices started the new trading week attempting to stabilize after suffering one of the most volatile periods of 2026.Spot Gold (XAU/USD) is trading around the $4,280 area after rebounding from last week's six-month low near $4,080. The recovery has improved short-term sentiment, but investors remain cautious ahead of what could become one of the most important macroeconomic weeks of the year.Unlike previous periods where geopolitical uncertainty dominated market direction, today's gold market is being influenced by multiple competing narratives.
+        Gold prices started the new trading week attempting to stabilize after suffering one of the most volatile periods of 2026.
+        Spot Gold (XAU/USD) is trading around the $4,280 area after rebounding from last week's six-month low near $4,080.
+        The recovery has improved short-term sentiment, but investors remain cautious ahead of what could become one of the most important macroeconomic weeks of the year.
+        Unlike previous periods where geopolitical uncertainty dominated market direction, today's gold market is being influenced by multiple competing narratives.
       </p>
 
       <Link
