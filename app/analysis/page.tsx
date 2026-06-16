@@ -9,6 +9,13 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today – XAU/USD Surges Above $4,350 as Markets Await Federal Reserve Decision | 16 June 2026",
+  date: "16 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-16",
+  summary:
+    "XAU/USD surges above $4,350 as markets await the Federal Reserve decision amid falling oil prices, Dollar weakness, and shifting inflation expectations.",
+  },
+  {
   title: "Gold Analysis Today – XAU/USD Rebounds Above $4,280 as Fed, BOJ and BOE Decisions Take Center Stage | 15 June 2026",
   date: "15 June 2026",
   slug: "/analysis/gold-analysis-2026-06-15",

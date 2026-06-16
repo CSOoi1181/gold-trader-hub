@@ -823,6 +823,10 @@ export default function GoldAnalysisArticle() {
               title: "Gold Analysis Today – XAU/USD Holds Near $4,200 as Fed Rate Hike Fears, Hot Inflation Data and US-Iran Peace Hopes Weigh on Gold Prices | 12 June 2026",
               href: "/analysis/gold-analysis-2026-06-12",
             }}
+            next={{
+                title: "Gold Analysis Today – XAU/USD Surges Above $4,350 as Markets Await Federal Reserve Decision | 16 June 2026",
+                href: "/analysis/gold-analysis-2026-06-16",
+         }}
           />
 
           <RelatedArticles />
