@@ -600,6 +600,10 @@ export default function GoldAnalysisArticle() {
                 "Gold Analysis Today – XAU/USD Rebounds Above $4,280 as Fed, BOJ and BOE Decisions Take Center Stage | 15 June 2026",
               href: "/analysis/gold-analysis-2026-06-15",
             }}
+            next={{
+                title: "Gold Analysis Today – XAU/USD Holds Above $4,330 Ahead of Historic FOMC Decision | 17 June 2026",
+                href: "/analysis/gold-analysis-2026-06-17",
+         }}
           />
 
           <RelatedArticles />
