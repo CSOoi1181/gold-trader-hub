@@ -1,13 +1,17 @@
 export default function MarketSummary() {
 return (
-<>
-<p>
-  Gold prices are trading near
-  <span className="text-yellow-400 font-semibold"> $4,335–$4,340 per ounce</span>
-  on Wednesday as investors await one of the most important Federal Reserve meetings of 2026.
-  The precious metal remains supported by easing inflation concerns, declining energy prices,
-  and ongoing weakness in the US Dollar ahead of today's highly anticipated FOMC decision.
-</p>
+  <>
+    <h2 className="text-2xl font-bold text-yellow-400 mb-4">
+        Gold Market Summary
+      </h2>
+
+    <p>
+      Gold prices are trading near
+      <span className="text-yellow-400 font-semibold"> $4,335–$4,340 per ounce </span>
+      on Wednesday as investors await one of the most important Federal Reserve meetings of 2026.
+      The precious metal remains supported by easing inflation concerns, declining energy prices,
+      and ongoing weakness in the US Dollar ahead of today's highly anticipated FOMC decision.
+    </p>
 
 <p>
   Market participants widely expect the Federal Reserve to leave benchmark interest rates unchanged.
