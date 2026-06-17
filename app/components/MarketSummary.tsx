@@ -2,8 +2,8 @@ export default function MarketSummary() {
 return (
   <>
     <h2 className="text-2xl font-bold text-yellow-400 mb-4">
-        Gold Market Summary
-      </h2>
+Gold Market Summary
+    </h2>
 
     <p>
       Gold prices are trading near
