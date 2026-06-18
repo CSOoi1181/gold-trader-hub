@@ -60,6 +60,19 @@ export default function Home() {
           <div className="space-y-4">
             
             <Link
+              href="/analysis/gold-analysis-2026-06-18"
+              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
+            >
+              <h3 className="text-lg font-semibold text-white">
+                Gold Analysis Today: XAU/USD Rebounds Above $4,320 After Fed Shock | 18 June 2026
+              </h3>
+
+              <p className="text-zinc-400 text-sm mt-1">
+                Daily Analysis • Published 18 June 2026
+              </p>
+            </Link>
+
+            <Link
               href="/analysis/gold-analysis-2026-06-17"
               className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
             >
@@ -121,19 +134,6 @@ export default function Home() {
 
               <p className="text-zinc-400 text-sm mt-1">
                 Daily Analysis • Published 11 June 2026
-              </p>
-            </Link>
-
-            <Link
-              href="/analysis/gold-analysis-2026-06-10"
-              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
-            >
-              <h3 className="text-lg font-semibold text-white">
-                Gold Analysis Today – XAU/USD Falls Below $4,300 as CPI Data, Fed Expectations and Announcements Drive Market Volatility | 10 June 2026
-              </h3>
-
-              <p className="text-zinc-400 text-sm mt-1">
-                Daily Analysis • Published 10 June 2026
               </p>
             </Link>
 

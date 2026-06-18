@@ -9,6 +9,13 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today: XAU/USD Rebounds Above $4,320 After Fed Shock | 18 June 2026",
+  date: "18 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-18",
+  summary:
+    "Gold Analysis Today for 18 June 2026. XAU/USD rebounds above $4,320 after a volatile post-FOMC selloff as traders assess the Federal Reserve's hawkish stance, a US-Iran interim peace agreement, and the outlook for inflation.",
+  },
+  {
   title: "Gold Analysis Today – XAU/USD Holds Above $4,330 Ahead of Historic FOMC Decision | 17 June 2026",
   date: "17 June 2026",
   slug: "/analysis/gold-analysis-2026-06-17",

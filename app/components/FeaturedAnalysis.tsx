@@ -13,24 +13,24 @@ export default function FeaturedAnalysis() {
       </div>
 
       <h3 className="text-xl font-semibold text-white mb-2">
-        Gold Analysis Today – XAU/USD Holds Above $4,330 Ahead of Historic FOMC Decision | 17 June 2026
+        Gold Analysis Today: XAU/USD Rebounds Above $4,320 After Fed Shock | 18 June 2026
       </h3>
 
       <p className="text-sm text-zinc-500 mb-4">
-        Published: 17 June 2026
+        Published: 18 June 2026
       </p>
 
       <p className="text-zinc-300 leading-8 mb-6">
-        Gold (XAU/USD) is trading near $4,335–$4,340 per ounce as markets await today's Federal Reserve decision.
-        Traders are focused on the first FOMC meeting under new Fed leadership, with interest rates widely expected to remain unchanged.
-        The recent US-Iran ceasefire framework has eased energy market concerns and pushed crude oil lower.
-        Falling oil prices have reduced inflation fears, helping gold recover more than $300 from its June lows.
-        The US Dollar Index remains under pressure, providing additional support for bullion prices.
-        Key technical levels remain $4,350 resistance and $4,300 support ahead of the Fed announcement.
+        Gold (XAU/USD) is trading near $4,320–$4,330 after recovering from a sharp post-FOMC selloff.
+        The Federal Reserve maintained rates at 3.50%–3.75% but delivered a hawkish message that initially pressured bullion.
+        A newly signed US-Iran interim peace agreement eased Middle East tensions and reopened the Strait of Hormuz.
+        Crude oil prices dropped sharply following the agreement, reducing inflation concerns across global markets.
+        The US Dollar Index (DXY) surged above 100.00, creating a major headwind for gold.
+        Traders are now focused on US Jobless Claims and the Philadelphia Fed Manufacturing Index for additional direction.
       </p>
 
       <Link
-        href="/analysis/gold-analysis-2026-06-17"
+        href="/analysis/gold-analysis-2026-06-18"
         className="inline-block bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg transition"
       >
         Read Full Analysis →
