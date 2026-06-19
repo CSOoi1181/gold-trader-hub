@@ -13,24 +13,23 @@ export default function FeaturedAnalysis() {
       </div>
 
       <h3 className="text-xl font-semibold text-white mb-2">
-        Gold Analysis Today: XAU/USD Rebounds Above $4,320 After Fed Shock | 18 June 2026
+        Gold Analysis Today – XAU/USD Slides Toward $4,150 as Hawkish Fed Signals and Strong Dollar Pressure Bullion | 19 June 2026
       </h3>
 
       <p className="text-sm text-zinc-500 mb-4">
-        Published: 18 June 2026
+        Published: 19 June 2026
       </p>
 
       <p className="text-zinc-300 leading-8 mb-6">
-        Gold (XAU/USD) is trading near $4,320–$4,330 after recovering from a sharp post-FOMC selloff.
-        The Federal Reserve maintained rates at 3.50%–3.75% but delivered a hawkish message that initially pressured bullion.
-        A newly signed US-Iran interim peace agreement eased Middle East tensions and reopened the Strait of Hormuz.
-        Crude oil prices dropped sharply following the agreement, reducing inflation concerns across global markets.
-        The US Dollar Index (DXY) surged above 100.00, creating a major headwind for gold.
-        Traders are now focused on US Jobless Claims and the Philadelphia Fed Manufacturing Index for additional direction.
+        Why Is Gold Falling Today?
+        Gold prices remain under pressure after a decisive shift in market sentiment following this week's Federal Reserve meeting.
+        While investors had initially hoped that lower energy prices and improving geopolitical conditions would support bullion, the market's focus has quickly returned to monetary policy.
+        The Federal Reserve's latest guidance reinforced expectations that interest rates could remain elevated for longer than previously anticipated. As a result, the US Dollar strengthened sharply while Treasury yields remained near multi-month highs.
+        For gold, which offers no yield, this environment creates a substantial headwind as investors increasingly favour interest-bearing assets.
       </p>
 
       <Link
-        href="/analysis/gold-analysis-2026-06-18"
+        href="/analysis/gold-analysis-2026-06-19"
         className="inline-block bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg transition"
       >
         Read Full Analysis →

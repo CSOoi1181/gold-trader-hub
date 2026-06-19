@@ -698,6 +698,10 @@ return (
             "Gold Analysis Today – XAU/USD Holds Above $4,330 Ahead of Historic FOMC Decision | 17 June 2026",
           href: "/analysis/gold-analysis-2026-06-17",
         }}
+        next={{
+                title: "Gold Analysis Today – XAU/USD Slides Toward $4,150 as Hawkish Fed Signals and Strong Dollar Pressure Bullion | 19 June 2026",
+                href: "/analysis/gold-analysis-2026-06-19",
+         }}
       />
 
       <RelatedArticles />

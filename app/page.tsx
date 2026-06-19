@@ -60,11 +60,24 @@ export default function Home() {
           <div className="space-y-4">
             
             <Link
+              href="/analysis/gold-analysis-2026-06-19"
+              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
+            >
+              <h3 className="text-lg font-semibold text-white">
+                Gold Analysis Today – XAU/USD Slides Toward $4,150 as Hawkish Fed Signals and Strong Dollar Pressure Bullion | 19 June 2026
+              </h3>
+
+              <p className="text-zinc-400 text-sm mt-1">
+                Daily Analysis • Published 19 June 2026
+              </p>
+            </Link>
+
+            <Link
               href="/analysis/gold-analysis-2026-06-18"
               className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
             >
               <h3 className="text-lg font-semibold text-white">
-                Gold Analysis Today: XAU/USD Rebounds Above $4,320 After Fed Shock | 18 June 2026
+                Gold Analysis Today – XAU/USD Rebounds Above $4,320 After Fed Shock | 18 June 2026
               </h3>
 
               <p className="text-zinc-400 text-sm mt-1">
@@ -121,19 +134,6 @@ export default function Home() {
 
               <p className="text-zinc-400 text-sm mt-1">
                 Daily Analysis • Published 12 June 2026
-              </p>
-            </Link>
-
-            <Link
-              href="/analysis/gold-analysis-2026-06-11"
-              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
-            >
-              <h3 className="text-lg font-semibold text-white">
-                Gold Analysis Today – XAU/USD Slides Toward $4,050 as CPI Shock, Rising Treasury Yields and US-Iran Tensions Pressure Gold Prices | 11 June 2026
-              </h3>
-
-              <p className="text-zinc-400 text-sm mt-1">
-                Daily Analysis • Published 11 June 2026
               </p>
             </Link>
 
