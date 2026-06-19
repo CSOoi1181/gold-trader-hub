@@ -15,6 +15,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/analysis/gold-analysis-2026-06-12",
     "/analysis/gold-analysis-2026-06-15",
     "/analysis/gold-analysis-2026-06-16",
+    "/analysis/gold-analysis-2026-06-17",
+    "/analysis/gold-analysis-2026-06-18",
+    "/analysis/gold-analysis-2026-06-19",
   ];
 
   return [
