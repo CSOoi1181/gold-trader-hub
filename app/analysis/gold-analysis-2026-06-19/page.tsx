@@ -688,6 +688,10 @@ export default function GoldAnalysisArticle() {
             "Gold Analysis Today: XAU/USD Rebounds Above $4,320 After Fed Shock | 18 June 2026",
           href: "/analysis/gold-analysis-2026-06-18",
         }}
+        next={{
+                title: "Gold Analysis Today – XAU/USD Holds Near $4,150 as Hawkish Fed and US-Iran Peace Talks Reshape Market Outlook | 22 June 2026",
+                href: "/analysis/gold-analysis-2026-06-22",
+         }}
       />
 
       <RelatedArticles />
