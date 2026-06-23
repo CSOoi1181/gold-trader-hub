@@ -9,6 +9,13 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today (XAU/USD): Price Struggles Near $4,150 as Hawkish Fed, Falling Oil Prices, and US-Iran Peace Progress Reshape Market Direction | June 23, 2026",
+  date: "23 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-23",
+  summary:
+    "XAU/USD trades near $4,150–$4,160 as markets react to Fed policy, falling oil prices, and US-Iran peace progress.",
+  },
+  {
   title: "Gold Analysis Today – XAU/USD Holds Near $4,150 as Hawkish Fed and US-Iran Peace Talks Reshape Market Outlook | 22 June 2026",
   date: "22 June 2026",
   slug: "/analysis/gold-analysis-2026-06-22",
