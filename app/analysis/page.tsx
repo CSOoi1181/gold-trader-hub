@@ -9,6 +9,13 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today (XAU/USD): Gold Slides Toward Critical Support as Hawkish Fed, Strong Dollar, and Fading Safe-Haven Demand Pressure Prices | June 24, 2026",
+  date: "24 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-24",
+  summary:
+    "XAU/USD trades near $4,050–$4,100 as markets react to Fed policy, strong USD, and falling risk sentiment.",
+  },
+  {
   title: "Gold Analysis Today (XAU/USD): Price Struggles Near $4,150 as Hawkish Fed, Falling Oil Prices, and US-Iran Peace Progress Reshape Market Direction | June 23, 2026",
   date: "23 June 2026",
   slug: "/analysis/gold-analysis-2026-06-23",

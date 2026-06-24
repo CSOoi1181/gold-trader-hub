@@ -60,6 +60,19 @@ export default function Home() {
           <div className="space-y-4">
             
             <Link
+              href="/analysis/gold-analysis-2026-06-24"
+              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
+            >
+              <h3 className="text-lg font-semibold text-white">
+                Gold Analysis Today (XAU/USD): Gold Slides Toward Critical Support as Hawkish Fed, Strong Dollar, and Fading Safe-Haven Demand Pressure Prices | June 24, 2026
+              </h3>
+
+              <p className="text-zinc-400 text-sm mt-1">
+                Daily Analysis • Published 24 June 2026
+              </p>
+            </Link>
+
+            <Link
               href="/analysis/gold-analysis-2026-06-23"
               className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
             >
@@ -121,19 +134,6 @@ export default function Home() {
 
               <p className="text-zinc-400 text-sm mt-1">
                 Daily Analysis • Published 17 June 2026
-              </p>
-            </Link>
-
-            <Link
-              href="/analysis/gold-analysis-2026-06-16"
-              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
-            >
-              <h3 className="text-lg font-semibold text-white">
-                Gold Analysis Today – XAU/USD Surges Above $4,350 as Markets Await Federal Reserve Decision | 16 June 2026
-              </h3>
-
-              <p className="text-zinc-400 text-sm mt-1">
-                Daily Analysis • Published 16 June 2026
               </p>
             </Link>
 

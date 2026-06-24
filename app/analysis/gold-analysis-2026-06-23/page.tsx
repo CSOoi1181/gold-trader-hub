@@ -622,6 +622,10 @@ export default function GoldAnalysisArticle() {
                 "Gold Analysis Today – XAU/USD Holds Near $4,150 as Hawkish Fed and US-Iran Peace Talks Reshape Market Outlook | 22 June 2026",
               href: "/analysis/gold-analysis-2026-06-22",
             }}
+            next={{
+                title: "Gold Analysis Today (XAU/USD): Gold Slides Toward Critical Support as Hawkish Fed, Strong Dollar, and Fading Safe-Haven Demand Pressure Prices | June 24, 2026",
+                href: "/analysis/gold-analysis-2026-06-24",
+         }}
           />
 
           <RelatedArticles />
