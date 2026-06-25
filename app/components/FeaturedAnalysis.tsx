@@ -13,31 +13,24 @@ export default function FeaturedAnalysis() {
       </div>
 
       <h3 className="text-xl font-semibold text-white mb-2">
-        Gold Analysis Today (XAU/USD): Gold Slides Toward Critical Support as Hawkish Fed, Strong Dollar, and Fading Safe-Haven Demand Pressure Prices | June 24, 2026
+        Gold Analysis Today (XAU/USD): Gold Battles to Hold Above $4,000 as Hawkish Fed, Strong Dollar, and Core PCE Risks Dominate Markets | June 25, 2026
       </h3>
 
       <p className="text-sm text-zinc-500 mb-4">
-        Published: 24 June 2026
+        Published: 25 June 2026
       </p>
 
       <p className="text-zinc-300 leading-8 mb-6">
-        Gold prices extended their decline on Wednesday as XAU/USD traded near two-week lows around the $4,050–$4,100 region, reflecting a dramatic shift in market sentiment that has unfolded over the past several trading sessions.
-        The precious metal, which spent much of the first half of 2026 benefiting from geopolitical uncertainty, inflation concerns, and central-bank buying activity, is now facing one of its most challenging environments of the year.
-        Several powerful forces are converging simultaneously:
-          •	The US Dollar continues to strengthen.
-          •	Treasury yields remain elevated.
-          •	Federal Reserve officials maintain a restrictive monetary policy stance.
-          •	Geopolitical tensions in the Middle East have eased.
-          •	Investors are reducing defensive positions ahead of critical US inflation data.
-          •	Institutional traders are increasingly moving toward cash and yield-bearing assets.
-        As a result, gold has entered a deeper corrective phase that many analysts believe could determine the direction of the market for the remainder of the third quarter.
-        While long-term structural support remains intact due to ongoing central-bank demand and global reserve diversification, short-term momentum currently favors sellers.
-        The next major catalyst is the upcoming US Core Personal Consumption Expenditures (Core PCE) inflation report, widely regarded as the Federal Reserve's preferred inflation gauge.
-        The outcome of that release may determine whether gold stabilizes above $4,000 or experiences another wave of liquidation.
+        Gold prices remain under significant pressure as investors continue to digest one of the sharpest corrections witnessed in the precious metals market this year.
+        After reaching historic highs earlier in 2026, gold has entered a deeper consolidation phase amid a dramatic shift in macroeconomic expectations. The combination of a stronger US dollar, elevated Treasury yields, renewed hawkish Federal Reserve expectations, and fading geopolitical risk premiums has forced investors to reassess the short-term outlook for precious metals.
+        During Wednesday's trading session, spot gold briefly slipped below the psychologically important $4,000 level for the first time since November 2025 before recovering modestly. The decline represented a major technical and psychological event for market participants because the $4,000 area had been viewed as one of the strongest support zones on the chart. 
+        The current market environment is being driven primarily by expectations that US interest rates could remain restrictive for longer than previously anticipated. Traders have increasingly priced in the possibility that the Federal Reserve may maintain its hawkish stance well into the second half of the year as inflation remains above the central bank's long-term target. 
+        At the center of market attention is the upcoming US Core Personal Consumption Expenditures (Core PCE) Price Index report, scheduled for June 26. Because Core PCE is the Federal Reserve's preferred inflation measure, the release could significantly influence expectations regarding future monetary policy, Treasury yields, the US dollar, and ultimately gold prices. 
+        For now, gold remains trapped between powerful long-term bullish fundamentals and increasingly challenging short-term macroeconomic conditions.
       </p>
 
       <Link
-        href="/analysis/gold-analysis-2026-06-24"
+        href="/analysis/gold-analysis-2026-06-25"
         className="inline-block bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg transition"
       >
         Read Full Analysis →

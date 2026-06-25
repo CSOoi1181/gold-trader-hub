@@ -9,6 +9,13 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today (XAU/USD): Gold Battles to Hold Above $4,000 as Hawkish Fed, Strong Dollar, and Core PCE Risks Dominate Markets | June 25, 2026",
+  date: "25 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-25",
+  summary:
+    "XAU/USD trades near $4,050–$4,110 as markets react to Fed policy, strong USD, and upcoming Core PCE inflation data.",
+  },
+  {
   title: "Gold Analysis Today (XAU/USD): Gold Slides Toward Critical Support as Hawkish Fed, Strong Dollar, and Fading Safe-Haven Demand Pressure Prices | June 24, 2026",
   date: "24 June 2026",
   slug: "/analysis/gold-analysis-2026-06-24",
