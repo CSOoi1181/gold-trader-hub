@@ -21,7 +21,10 @@ export default function FeaturedAnalysis() {
       </p>
 
       <p className="text-zinc-300 leading-8 mb-6">
-        Gold prices are facing a critical juncture as they hover around the $4,000 psychological floor. The market is grappling with a combination of factors, including a hawkish Federal Reserve stance, a strong US dollar, and the implications of core PCE inflation data. Traders are closely monitoring these developments to gauge potential market movements and trading opportunities.
+        Spot gold (XAU/USD) is trending downward today, currently trading at $4,062.28 per ounce. This represents a daily decline of approximately 0.64% from its weekend close of $4,088.60, as the precious metal navigates tight daily ranges during the Asian and early European sessions.
+        The asset remains mired in a persistent, multi-month bearish correction, sitting roughly 25% to 29% below its January all-time high of $5,580–$5,608. Dissipating geopolitical safe-haven premiums, an aggressive Federal Reserve monetary policy stance, and a roaring US Dollar continue to limit any sustained upward momentum.
+        The primary macro driver for today's price action is the delicate unwinding of geopolitical risk premiums following localized military escalations over the weekend. Financial markets are actively processing a "stand down for now" signal after a series of weekend missile and drone exchanges between the US and Iran. A senior US official confirmed that both nations are actively avoiding immediate further escalation, injecting risk-on confidence back into broader capital markets.
+        Traders are heavily pricing in a 60-day US-Iran peace roadmap and memorandum of understanding. This structured arrangement allows toll-free passage through the critical Strait of Hormuz while utilizing restricted Iranian funds exclusively for humanitarian food supplies. This structural breakthrough effectively removes the extreme war premium that historically bolstered bullion.
       </p>
 
       <Link
