@@ -13,24 +13,19 @@ export default function FeaturedAnalysis() {
       </div>
 
       <h3 className="text-xl font-semibold text-white mb-2">
-        Gold Analysis Today (XAU/USD): Gold Battles to Hold Above $4,000 as Hawkish Fed, Strong Dollar, and Core PCE Risks Dominate Markets | June 25, 2026
+        Gold Analysis Today (XAU/USD): Gold Navigates the $4,000 Psychological Floor Amid Surging 13-Month Dollar High | June 29, 2026
       </h3>
 
       <p className="text-sm text-zinc-500 mb-4">
-        Published: 25 June 2026
+        Published: 29 June 2026
       </p>
 
       <p className="text-zinc-300 leading-8 mb-6">
-        Gold prices remain under significant pressure as investors continue to digest one of the sharpest corrections witnessed in the precious metals market this year.
-        After reaching historic highs earlier in 2026, gold has entered a deeper consolidation phase amid a dramatic shift in macroeconomic expectations. The combination of a stronger US dollar, elevated Treasury yields, renewed hawkish Federal Reserve expectations, and fading geopolitical risk premiums has forced investors to reassess the short-term outlook for precious metals.
-        During Wednesday's trading session, spot gold briefly slipped below the psychologically important $4,000 level for the first time since November 2025 before recovering modestly. The decline represented a major technical and psychological event for market participants because the $4,000 area had been viewed as one of the strongest support zones on the chart. 
-        The current market environment is being driven primarily by expectations that US interest rates could remain restrictive for longer than previously anticipated. Traders have increasingly priced in the possibility that the Federal Reserve may maintain its hawkish stance well into the second half of the year as inflation remains above the central bank's long-term target. 
-        At the center of market attention is the upcoming US Core Personal Consumption Expenditures (Core PCE) Price Index report, scheduled for June 26. Because Core PCE is the Federal Reserve's preferred inflation measure, the release could significantly influence expectations regarding future monetary policy, Treasury yields, the US dollar, and ultimately gold prices. 
-        For now, gold remains trapped between powerful long-term bullish fundamentals and increasingly challenging short-term macroeconomic conditions.
+        Gold prices are facing a critical juncture as they hover around the $4,000 psychological floor. The market is grappling with a combination of factors, including a hawkish Federal Reserve stance, a strong US dollar, and the implications of core PCE inflation data. Traders are closely monitoring these developments to gauge potential market movements and trading opportunities.
       </p>
 
       <Link
-        href="/analysis/gold-analysis-2026-06-25"
+        href="/analysis/gold-analysis-2026-06-29"
         className="inline-block bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg transition"
       >
         Read Full Analysis →

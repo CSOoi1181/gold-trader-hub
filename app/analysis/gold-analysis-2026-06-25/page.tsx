@@ -774,6 +774,10 @@ export default function GoldAnalysisArticle() {
       "Gold Analysis Today (XAU/USD): Gold Slides Toward Critical Support as Hawkish Fed, Strong Dollar, and Fading Safe-Haven Demand Pressure Prices | June 24, 2026",
     href: "/analysis/gold-analysis-2026-06-24",
   }}
+  next={{
+                title: "Gold Analysis Today (XAU/USD): Gold Braces for Volatility as Crucial US Core PCE Inflation Data Set to Impact Markets | June 26, 2026",
+                href: "/analysis/gold-analysis-2026-06-26",
+         }}
 />
 
 <RelatedArticles />

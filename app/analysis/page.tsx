@@ -9,6 +9,20 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today (XAU/USD): Gold Navigates the $4,000 Psychological Floor Amid Surging 13-Month Dollar High | June 29, 2026",
+  date: "29 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-29",
+  summary:
+    "XAU/USD faces downward pressure, trading at $4,062.28 as easing geopolitical premiums and a powerful USD test structural support.",
+  },
+  {
+  title: "Gold Analysis Today (XAU/USD): Gold Braces for Volatility as Crucial US Core PCE Inflation Data Set to Impact Markets | June 26, 2026",
+  date: "26 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-26",
+  summary:
+    "XAU/USD stabilizes near $4,020–$4,080 as traders position ahead of the high-stakes Core PCE inflation print.",
+  },
+  {
   title: "Gold Analysis Today (XAU/USD): Gold Battles to Hold Above $4,000 as Hawkish Fed, Strong Dollar, and Core PCE Risks Dominate Markets | June 25, 2026",
   date: "25 June 2026",
   slug: "/analysis/gold-analysis-2026-06-25",
