@@ -9,6 +9,27 @@ export const metadata = {
 
 const articles = [
   {
+  title: "Gold Analysis Today (XAU/USD): Gold Stages Volatile Relief Rally Near $4,064 Prior to Nonfarm Payrolls Shockwave | July 2, 2026",
+  date: "2 July 2026",
+  slug: "/analysis/gold-analysis-2026-07-02",
+  summary:
+    "Gold Analysis Today for July 2, 2026. XAU/USD navigates structural corrections under Fed Chair Kevin Warsh's regime, holding critical psychological support at $4,000.",
+  },
+  {
+  title: "Gold Analysis Today (XAU/USD): Gold Consolidates Near $4,000 Floor Amid Doha Geopolitical Deadlock and Hawkish Fed Repricing | July 01, 2026",
+  date: "1 July 2026",
+  slug: "/analysis/gold-analysis-2026-07-01",
+  summary:
+    "Gold Analysis Today for July 01, 2026. XAU/USD exhibits significant intraday volatility around $3,981.69 as US-Iran peace talks stall and aggressive rate expectations favor a 13-month Dollar high.",
+  },
+  {
+  title: "Gold Price Analysis (XAU/USD): Gold Shatters $4,000 Support Floor in Waterfall Liquidity Cascade as Doha Peace Talks Progress | June 30, 2026",
+  date: "30 June 2026",
+  slug: "/analysis/gold-analysis-2026-06-30",
+  summary:
+    "Gold Analysis Today for June 30, 2026. Spot gold (XAU/USD) drops through critical $4,000 support, plunging down to the $3,940 liquidity pool. Discover the macro, geopolitical, and technical forces driving this waterfall sell-off.",
+  },
+  {
   title: "Gold Analysis Today (XAU/USD): Gold Navigates the $4,000 Psychological Floor Amid Surging 13-Month Dollar High | June 29, 2026",
   date: "29 June 2026",
   slug: "/analysis/gold-analysis-2026-06-29",

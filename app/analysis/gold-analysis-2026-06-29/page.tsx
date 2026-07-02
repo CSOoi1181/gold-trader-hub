@@ -351,6 +351,10 @@ export default function GoldAnalysisArticle() {
               "Gold Analysis Today (XAU/USD): Gold Braces for Volatility as Crucial US Core PCE Inflation Data Set to Impact Markets | June 26, 2026",
             href: "/analysis/gold-analysis-2026-06-26",
           }}
+          next={{
+                title: "Gold Price Analysis (XAU/USD): Gold Shatters $4,000 Support Floor in Waterfall Liquidity Cascade as Doha Peace Talks Progress | June 30, 2026",
+                href: "/analysis/gold-analysis-2026-06-30",
+         }}
         />
 
         <RelatedArticles />

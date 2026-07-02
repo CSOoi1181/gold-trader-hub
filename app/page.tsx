@@ -60,6 +60,45 @@ export default function Home() {
           <div className="space-y-4">
             
             <Link
+              href="/analysis/gold-analysis-2026-07-02"
+              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
+            >
+              <h3 className="text-lg font-semibold text-white">
+                Gold Analysis Today (XAU/USD): Gold Stages Volatile Relief Rally Near $4,064 Prior to Nonfarm Payrolls Shockwave | July 2, 2026
+              </h3>
+
+              <p className="text-zinc-400 text-sm mt-1">
+                Daily Analysis • Published 2 July 2026
+              </p>
+            </Link>
+
+            <Link
+              href="/analysis/gold-analysis-2026-07-01"
+              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
+            >
+              <h3 className="text-lg font-semibold text-white">
+                Gold Analysis Today (XAU/USD): Gold Consolidates Near $4,000 Floor Amid Doha Geopolitical Deadlock and Hawkish Fed Repricing | July 01, 2026
+              </h3>
+
+              <p className="text-zinc-400 text-sm mt-1">
+                Daily Analysis • Published 1 July 2026
+              </p>
+            </Link>
+
+            <Link
+              href="/analysis/gold-analysis-2026-06-30"
+              className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
+            >
+              <h3 className="text-lg font-semibold text-white">
+                Gold Price Analysis (XAU/USD): Gold Shatters $4,000 Support Floor in Waterfall Liquidity Cascade as Doha Peace Talks Progress | June 30, 2026
+              </h3>
+
+              <p className="text-zinc-400 text-sm mt-1">
+                Daily Analysis • Published 30 June 2026
+              </p>
+            </Link>
+
+            <Link
               href="/analysis/gold-analysis-2026-06-29"
               className="block border border-zinc-800 rounded-lg p-4 hover:border-yellow-400 transition"
             >
