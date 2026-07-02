@@ -78,9 +78,7 @@ export default function GoldAnalysisArticle() {
               The asset is consolidating heavily at the absolute bottom of its current multi-week trading range and is hovering near its immediate Year-to-Date (YTD) lows. Following a steep and persistent technical correction, XAU/USD is now heading into its sharpest single monthly decline of 2026, marking an approximate 15% drop from its all-time high of over $4,700 established earlier in the year. The current market action represents an unconventional environment where traditional safe-haven metrics are transmitting almost entirely through interest rate hike expectations rather than raw geopolitical fear.
             </p>
           </section>
-// ==========================================
-// PART 2 OF 5: QUICK SNAPSHOT, PRICE OVERVIEW, & MACRO DYNAMICS
-// ==========================================
+
 
           {/* ================= QUICK MARKET SNAPSHOT ================= */}
           <section>
@@ -174,9 +172,7 @@ export default function GoldAnalysisArticle() {
               Yield-seeking capital continues to exit commodities and rotate heavily into the greenback, pushing the US Dollar Index (DXY) near a 13-month high, which significantly raises the acquisition cost of bullion for overseas buyers. Furthermore, market sentiment indicators are highly defensive; gold’s put/call skew has turned positive for the first time since 2016. This indicator means institutional traders are actively paying a premium for downside put options (protection against a price drop) over upside call options, indicating deep structural distribution.
             </p>
           </section>
-// ==========================================
-// PART 3 OF 5: STRUCTURAL FLOORS & RECONSTRUCTED ECONOMIC CALENDAR
-// ==========================================
+
 
           {/* ================= THE $4,000 TECHNICAL FLOOR ================= */}
           <section>
@@ -276,9 +272,7 @@ export default function GoldAnalysisArticle() {
               <li><strong>Gold Impact:</strong> Short-term algorithmic short covering will instantly push spot gold back above $4,034, quickly targeting a test of structural horizontal resistance closer to $4,096.</li>
             </ul>
           </section>
-// ==========================================
-// PART 4 OF 5: REGIONAL DEMAND & QUANTITATIVE RISK FORMULAS
-// ==========================================
+
 
           {/* ================= PHYSICAL MARKET DYNAMICS ================= */}
           <section>
@@ -362,9 +356,7 @@ export default function GoldAnalysisArticle() {
               <strong>The Mechanical Breakdown:</strong> To execute a multi-billion dollar currency intervention, Japan cannot simply print money. They must sell their massive holdings of US Treasury bonds to instantly acquire physical US Dollars. Dumping billions of dollars worth of US bonds onto the secondary open market forces bond prices down, which causes US Treasury yields to spike aggressively higher. Because gold is a non-yielding asset that pays zero interest, the opportunity cost of holding it climbs. Institutional funds immediately exit XAU/USD positions to capture the safe, guaranteed yields offered by US government debt.
             </p>
           </section>
-// ==========================================
-// PART 5 OF 5: TRADING SETUPS, ORDER FLOWS, HISTORICAL RECAP, & FAQ
-// ==========================================
+
 
           {/* ================= SESSION RECAP & DISTRIBUTION FLOWS ================= */}
           <section>

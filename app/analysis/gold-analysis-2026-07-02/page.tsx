@@ -75,7 +75,7 @@ export default function GoldAnalysisArticle() {
               The macroeconomic backdrop for mid-2026 remains exceptionally challenging for precious metals. From its historic all-time high of $5,598 established in January 2026, gold has suffered a massive 28.4% structural markdown. This profound correction has driven a complete inversion of classic market correlations. Rather than acting as a traditional safe-haven shield against geopolitical instabilities in the Middle East and structural trade tariff warnings from the Trump administration, localized escalations have systematically pumped global energy inflation. This sticky cost environment has forced global central banks to sustain an aggressively hawkish posture, lifting the opportunity cost of non-yielding bullion and driving long-term capital flows into the liquid US Dollar.
             </p>
           </section>
-// ==================== PART 2: QUICK MARKET SNAPSHOT & INSTITUTIONAL PRICE DATA ====================
+
           {/* ================= QUICK MARKET SNAPSHOT ================= */}
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
@@ -159,7 +159,7 @@ export default function GoldAnalysisArticle() {
               According to structural intelligence embedded in the World Gold Council's H2 2026 Outlook, deep insitutional demand remains exceptionally strong, with emerging-market central banks continually accumulating physical gold reserves as an ultimate sovereign hedge. However, this deep macro floor is currently clashing with severe retail regulatory headwinds in Asia. China's largest state-backed banking institutions have enforced strict limits on retail trading programs linked directly to the Shanghai Gold Exchange (SGE) to curb speculative risk following extreme market drawdowns. This domestic administrative squeeze has severely flattened paper gold trading volumes across Asian hours, narrowing the historical Shanghai physical premium and keeping a tight cap on global spot price velocity.
             </p>
           </section>
-// ==================== PART 3: MACRO VARIABLES, TRUMP POLICY FACTORS, & YIELD LINKS ====================
+
           {/* ================= MACRO & INTEREST RATE DYNAMICS ================= */}
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
@@ -211,7 +211,7 @@ export default function GoldAnalysisArticle() {
               This high 44% reversal probability occurs due to dual-data conflict. The NFP release drops two major indicators simultaneously: Headline Payroll numbers and the Unemployment Rate/Average Hourly Earnings. If Headline Payrolls beat expectations (Bullish USD), but the Unemployment Rate ticks upward (Bearish USD), high-frequency trading (HFT) models scramble. Machine A dumps gold based on jobs, while Machine B buys gold based on unemployment. This structural friction creates massive liquidity sweeps designed to flush retail stops before true institutional direction is established.
             </p>
           </section>
-// ==================== PART 4: TECHNICAL GEOMETRY & EXECUTION PARAMETERS ====================
+
           {/* ================= TECHNICAL ANALYSIS & CHART GEOMETRY ================= */}
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
@@ -267,7 +267,7 @@ Current Spot Evaluation: ~$4,064
               With the ratio consolidating at 64, gold is beginning to look fairly valued relative to silver. For long-term portfolio managers who anticipate a continuation of the secular precious metals bull market driven by structural central bank physical hedging, building allocations near the $4,000 structural floor represents a sound defensive play.
             </p>
           </section>
-// ==================== PART 5: LIVE SCENARIOS, ECONOMIC CALENDAR, & CLOSING TAGS ====================
+
           {/* ================= SCENARIO-BASED TRADING STRATEGIES ================= */}
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">
